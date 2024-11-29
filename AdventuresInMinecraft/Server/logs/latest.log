@@ -1,0 +1,33 @@
+[18:20:26] [Server thread/INFO]: Starting minecraft server version 1.12
+[18:20:26] [Server thread/INFO]: Loading properties
+[18:20:26] [Server thread/INFO]: Default game type: CREATIVE
+[18:20:26] [Server thread/INFO]: Generating keypair
+[18:20:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:20:27] [Server thread/INFO]: Using default channel type
+[18:20:28] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[18:20:28] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[18:20:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:20:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:20:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:20:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:20:28] [Server thread/INFO]: Preparing level "world"
+[18:20:28] [Server thread/INFO]: Preparing start region for level 0 (Seed: -8646501362310748061)
+[18:20:29] [Server thread/INFO]: Preparing spawn area: 64%
+[18:20:29] [Server thread/INFO]: Preparing start region for level 1 (Seed: -8646501362310748061)
+[18:20:30] [Server thread/INFO]: Preparing start region for level 2 (Seed: -8646501362310748061)
+[18:20:30] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[18:20:30] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[18:20:30] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[18:20:30] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[18:20:30] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[18:20:30] [Server thread/WARN]: Server permissions file permissions.yml is not valid YAML.
+java.lang.ClassCastException: java.lang.String cannot be cast to java.util.Map
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadCustomPermissions(CraftServer.java:761) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:331) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:411) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:372) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:327) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:244) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:521) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[18:20:30] [Server thread/INFO]: Done (2,664s)! For help, type "help" or "?"
