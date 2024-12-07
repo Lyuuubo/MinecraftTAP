@@ -17,6 +17,6 @@ while True:
                 chat = [chatEvent.message for chatEvent in chat if chatEvent.message is not None]
                 print(chat)
                 if len(chat) > 0 and 'ta mare' in chat[-1]:
-                     mc.postToChat("<Kevin> Calla")
+                     mc.postToChat("<InsultBot> Calla")
 
             
