@@ -8,5 +8,5 @@ while True:
     pos = mc.player.getTilePos()    #Obtenim posició del jugador
     if pos.x <= -159 and pos.z == 504:
         mc.postToChat("hola")
-        mc.postToChat(f'Id jugador: {mc.getPlayerEntityId("Lyuuubo")}')
+        mc.postToChat(f'Id jugador: {mc.getPlayerEntityId("R3YUL")}')
         mc.postToChat(f'Posicio jugador: {mc.player.getPos()}')
