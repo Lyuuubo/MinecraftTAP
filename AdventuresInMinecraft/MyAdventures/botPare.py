@@ -3,12 +3,10 @@ import mcpi.minecraft as minecraft  #Llibreria de minecraft
 mc = minecraft.Minecraft.create()   #Crea connexió amb minecraft
 
 class botPare:
-    name = ""
-    comand = ""
-
     def __init__ (self, name, comand):
         self.name = name
         self.comand = comand
+        self.ini = False
 
     def seeBot(self):
         print(f'Nom: {self.name}')
