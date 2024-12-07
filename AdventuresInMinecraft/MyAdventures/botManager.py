@@ -6,9 +6,8 @@ from insultBot import insultBot
 mc = minecraft.Minecraft.create()   #Crea connexió amb minecraft
 
 class BotManager:
-
     def __init__(self):
-        self.botList = []
+        self.botList = []    #Llista de bots que el manegador/controlador
         pass
 
     def showBots(self, mc):
@@ -34,7 +33,6 @@ class BotManager:
     def showInfo(self):
         for x in self.botList:
             x.seeBot()
-
 
     def startManaging(self):
         while True:
