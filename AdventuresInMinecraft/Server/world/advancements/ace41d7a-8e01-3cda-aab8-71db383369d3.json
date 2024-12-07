@@ -92,6 +92,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "forest": "2024-11-26 18:01:08 +0100",
+      "forest_hills": "2024-12-03 18:04:30 +0100",
       "extreme_hills": "2024-11-26 18:05:42 +0100",
       "river": "2024-11-26 18:05:20 +0100"
     },
