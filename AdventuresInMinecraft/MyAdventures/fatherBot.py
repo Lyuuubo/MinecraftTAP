@@ -12,9 +12,9 @@ class botPare:
 
     def seeBot(self):
         print(f'Nom: {self.name}')
-        print(f"Comanda d'activació: {self.comand}")
+        print(f"Comanda d'activacio: {self.comand}")
         mc.postToChat(f'Nom: {self.name}')
-        mc.postToChat(f"Comanda d'activació: {self.comand}")
+        mc.postToChat(f"Comanda d'activacio: {self.comand}")
 
     def iniBot(self):
         pass
