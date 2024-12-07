@@ -10,7 +10,7 @@ while True:
         if (chat[-1] == "#botInsult"):
             print("Kevin")
             print(f"S'ha iniciat el bot: {chat[-1]}")
-            mc.postToChat(f"S'ha iniciat el bot: {chat[-1]} per l'usuari {mc.getPlayerEntityId('Lyuuubo')}")
+            mc.postToChat(f"S'ha iniciat el bot: {chat[-1]} per l'usuari {mc.getPlayerEntityId('R3YUL')}")
             while True:
                 time.sleep(2)
                 chat = mc.events.pollChatPosts()
