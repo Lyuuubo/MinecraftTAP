@@ -1,10 +1,10 @@
-from botPare import botPare
+from fatherBot import fatherBot
 import mcpi.minecraft as minecraft  #Llibreria de minecraft
 mc = minecraft.Minecraft.create()   #Crea connexió amb minecra
 import time
 import random
 
-class patatBot(botPare):
+class patatBot(fatherBot):
     def __init__(self, name, comand):
         super().__init__(name, comand)
 

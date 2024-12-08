@@ -2,7 +2,7 @@ import time
 import mcpi.minecraft as minecraft  #Llibreria de minecraft
 mc = minecraft.Minecraft.create()   #Crea connexió amb minecraft
 
-class botPare:
+class fatherBot:
     def __init__ (self, name, comand):
         self.name = name
         self.comand = comand

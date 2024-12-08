@@ -2,6 +2,7 @@ import mcpi.minecraft as minecraft  #Llibreria de minecraft
 import threading
 import time
 from insultBot import insultBot
+from tnnnntBot import tntBot
 
 mc = minecraft.Minecraft.create()   #Crea connexió amb minecraft
 
@@ -27,7 +28,7 @@ class BotManager:
 
     def createThread(self, bot, mc):
         mc.postToChat("Creating Thread")
-        thread = threading.Thread(target=bot.iniBot())
+        thread = threading.Thread(target=bot.iniBot)
         thread.start()
 
     def showInfo(self):
@@ -43,12 +44,19 @@ class BotManager:
                 lastMessage = chat[-1]  #Agafem el darrem missatge
                 if lastMessage[:1] == "#":  #Comprovem que s'hagi realitzat la comanda
                     index = self.returnIndex(lastMessage)
+                    #print(index)
                     if index >= 0:
+                        #print(f"Bot: {index}")
                         self.createThread(self.botList[index], mc)
                 if lastMessage == "#showBots":  #En cas de showBots mostrem per pantalla tots els bots que pot controlar el manegador
-                    self.showBots(mc)
+                    self.showInfo()
 
 f = BotManager()
-f.addBots(insultBot("insultBot", "#insultBot"))
+f.addBots(insultBot("insultBot1", "#insultBot1"))
+f.addBots(insultBot("insultBot2", "#insultBot2"))
+#f.addBots(tntBot("tntBot1", "#tntBot1", 30, 1))
+#f.addBots(tntBot("tntBot2", "#tntBot2", 30, 2))
+#f.addBots(tntBot("tntBot3", "#tntBot3", 30, 3))
+f.addBots(tntBot("tntBot4", "#tntBot4", 30, 4))
 f.showInfo()
 f.startManaging()

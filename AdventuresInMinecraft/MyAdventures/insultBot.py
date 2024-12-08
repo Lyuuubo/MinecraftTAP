@@ -1,6 +1,6 @@
-from fatherBot import fatherBot
 import mcpi.minecraft as minecraft  #Llibreria de minecraft
 mc = minecraft.Minecraft.create()   #Crea connexió amb minecra
+from fatherBot import fatherBot
 import time
 import random
 

@@ -1,8 +1,8 @@
 import mcpi.minecraft as minecraft  #Llibreria de minecraft
 mc = minecraft.Minecraft.create()   #Crea connexió amb minecraft
 import time
-from provaInsultBot import insultBot
-from botPare import botPare
+from AdventuresInMinecraft.MyAdventures.insultBot import insultBot
+from fatherBot import fatherBot
 
 class Manegador:
     def __init__(self):
