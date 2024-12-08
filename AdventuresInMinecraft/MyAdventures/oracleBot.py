@@ -10,15 +10,15 @@ class oracleBot(fatherBot):
         
 
     def iniBot(self):
-        print(f"S'ha iniciat el bot: {self.name}")
-        mc.postToChat(f"S'ha iniciat el bot: {self.name}")
-        genai.configure(api_key='')
+        self.startBot()
+        genai.configure(api_key='AIzaSyAiwmxgeQvufzHZ_XnDhbKQ92Iwfe_KOCs')
         model = genai.GenerativeModel("gemini-1.5-flash")
         while self.ini:
             time.sleep(1)
             chat = self.accesChat()
-            if len(chat) > 0 and chat[-1] not in (self.comandActive, self.comandEnd):
+            if len(chat) > 0:
                 response = model.generate_content(str(chat))
+                print(response.text)
                 mc.postToChat(f"<{self.name}> {response.text}")
                 self.refresh()
         self.stopBot()

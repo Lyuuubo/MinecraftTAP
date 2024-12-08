@@ -12,6 +12,7 @@ class tntBot(fatherBot):
         super().__init__(name, comandActive, comandEnd)
 
     def iniBot(self):
+        self.startBot()
         tim = 1
         if self.lvl == 2: tim = 0.5
         elif self.lvl == 3: tim = 0.2

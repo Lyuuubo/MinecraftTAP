@@ -14,13 +14,18 @@ class fatherBot:
         print(f'Nom: {self.name}')
         print(f"Comanda d'activacio: {self.comandActive}")
         print(f"Comanda desactivacio: {self.comandEnd}")
-        mc.postToChat(f'Nom: {self.name}')
-        mc.postToChat(f"Comanda d'activacio: {self.comandActive}")
-        mc.postToChat(f"Comanda desactivacio: {self.comandEnd}")
+        mc.postToChat(f'<System> Nom: {self.name}')
+        mc.postToChat(f"<System> Comanda d'activacio: {self.comandActive}")
+        mc.postToChat(f"<System> Comanda desactivacio: {self.comandEnd}")
 
     def stopBot(self):
         print(f'<System> You stop bot: {self.name}')
         mc.postToChat(f'<System> You stop bot: {self.name}')
+
+    def startBot(self):
+        self.ini = True
+        print(f"<System> S'ha iniciat el bot: {self.name}")
+        mc.postToChat(f"<System> S'ha iniciat el bot: {self.name}")
     
     def notify(self, message):
         self.chatList.append(message)

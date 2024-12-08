@@ -9,11 +9,7 @@ mc = minecraft.Minecraft.create()   #Crea connexiÃ³ amb minecraft
 
 class BotManager:
     def __init__(self):
-        self.botList = []    #Llista de bots que el manegador/controlador
-        pass
-
-    def showBots(self, mc):
-        mc.postToChat(f'{self.botList}')
+        self.botList = []
 
     def addBots(self, bot):
         self.botList.append(bot)
@@ -46,15 +42,18 @@ class BotManager:
             x.seeBot()
 
     def notifyBots(self, message):
-        for x in self.botList:
-            x.notify(message)
+        for x in self.botList:  #Per cada Bot
+            if x.ini:  x.notify(message) #El notifiquem si esta actiu
 
     def comands(self, message):
         if message == "#stopBots": 
             for x in self.botList:
                 x.ini = False
-        if message == "#showBots":  #En cas de showBots mostrem per pantalla tots els bots que pot controlar el manegador
+        elif message == "#showBots":  #En cas de showBots mostrem per pantalla tots els bots que pot controlar el manegador
             self.showInfo()
+        elif message == "#showActiveBots":
+            for x in self.botList:
+                if x.ini: x.seeBot()
 
     def startManaging(self):
         while True:
@@ -63,18 +62,19 @@ class BotManager:
             if posts:
                 chat = [chatEvent.message for chatEvent in posts if chatEvent.message is not None] #Per cada chatEvent que es troba a chat, agafem chatEvent.message
                 lastMessage = chat[-1]  #Agafem el darrem missatge
-                if lastMessage[:1] == "#":  #Comprovem que s'hagi realitzat la comanda
+                if lastMessage[0] == "#":  #Comprovem que s'hagi realitzat la comanda
+                    self.comands(lastMessage)
                     indexA = self.returnIndexActive(lastMessage)
                     #print(index)
                     if indexA >= 0:
                         #print(f"Bot: {index}")
-                        self.botList[indexA].ini = True
+                        #self.botList[indexA].ini = True
                         self.createThread(self.botList[indexA], mc)
                     indexE = self.returnIndexEnd(lastMessage)
                     if indexE >= 0:
                         self.botList[indexE].ini = False
-                self.comands(lastMessage)
-                self.notifyBots(lastMessage)
+                else :
+                    self.notifyBots(lastMessage)
 
 
 f = BotManager()
@@ -85,5 +85,6 @@ f.addBots(insultBot("insultBot2", "#insultBot2", "#endInsultBot2"))
 #f.addBots(tntBot("tntBot3", "#tntBot3", 30, 3))
 f.addBots(tntBot("tntBot4", "#tntBot4","#endTntBot4", 30, 4))
 f.addBots(oracleBot("chatBot", "#chatBot", "#endChatBot"))
+print("Bots activats")
 #f.showInfo()
 f.startManaging()
