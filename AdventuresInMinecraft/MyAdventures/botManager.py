@@ -3,8 +3,9 @@ import threading
 import time
 from insultBot import insultBot
 from tnnnntBot import tntBot
+from oracleBot import oracleBot
 
-mc = minecraft.Minecraft.create()   #Crea connexió amb minecraft
+mc = minecraft.Minecraft.create()   #Crea connexiÃ³ amb minecraft
 
 class BotManager:
     def __init__(self):
@@ -17,8 +18,17 @@ class BotManager:
     def addBots(self, bot):
         self.botList.append(bot)
 
-    def returnIndex(self, message):
-        commandList = [bot.comand for bot in self.botList]
+    def returnIndexActive(self, message):
+        commandList = [bot.comandActive for bot in self.botList]
+        isCommand = message in commandList
+        if (isCommand):
+            index = commandList.index(message)
+            return index
+        else :
+            return -1
+        
+    def returnIndexEnd(self, message):
+        commandList = [bot.comandEnd for bot in self.botList]
         isCommand = message in commandList
         if (isCommand):
             index = commandList.index(message)
@@ -27,7 +37,7 @@ class BotManager:
             return -1
 
     def createThread(self, bot, mc):
-        mc.postToChat("Creating Thread")
+        #mc.postToChat("Creating Thread")
         thread = threading.Thread(target=bot.iniBot)
         thread.start()
 
@@ -35,28 +45,45 @@ class BotManager:
         for x in self.botList:
             x.seeBot()
 
+    def notifyBots(self, message):
+        for x in self.botList:
+            x.notify(message)
+
+    def comands(self, message):
+        if message == "#stopBots": 
+            for x in self.botList:
+                x.ini = False
+        if message == "#showBots":  #En cas de showBots mostrem per pantalla tots els bots que pot controlar el manegador
+            self.showInfo()
+
     def startManaging(self):
         while True:
-            time.sleep(2) 
+            time.sleep(1) 
             posts = mc.events.pollChatPosts()  #Obtenim els missatges que introdueix l'usuari pel chat
             if posts:
                 chat = [chatEvent.message for chatEvent in posts if chatEvent.message is not None] #Per cada chatEvent que es troba a chat, agafem chatEvent.message
                 lastMessage = chat[-1]  #Agafem el darrem missatge
                 if lastMessage[:1] == "#":  #Comprovem que s'hagi realitzat la comanda
-                    index = self.returnIndex(lastMessage)
+                    indexA = self.returnIndexActive(lastMessage)
                     #print(index)
-                    if index >= 0:
+                    if indexA >= 0:
                         #print(f"Bot: {index}")
-                        self.createThread(self.botList[index], mc)
-                if lastMessage == "#showBots":  #En cas de showBots mostrem per pantalla tots els bots que pot controlar el manegador
-                    self.showInfo()
+                        self.botList[indexA].ini = True
+                        self.createThread(self.botList[indexA], mc)
+                    indexE = self.returnIndexEnd(lastMessage)
+                    if indexE >= 0:
+                        self.botList[indexE].ini = False
+                self.comands(lastMessage)
+                self.notifyBots(lastMessage)
+
 
 f = BotManager()
-f.addBots(insultBot("insultBot1", "#insultBot1"))
-f.addBots(insultBot("insultBot2", "#insultBot2"))
+f.addBots(insultBot("insultBot1", "#insultBot1", "#endInsultBot1"))
+f.addBots(insultBot("insultBot2", "#insultBot2", "#endInsultBot2"))
 #f.addBots(tntBot("tntBot1", "#tntBot1", 30, 1))
 #f.addBots(tntBot("tntBot2", "#tntBot2", 30, 2))
 #f.addBots(tntBot("tntBot3", "#tntBot3", 30, 3))
-f.addBots(tntBot("tntBot4", "#tntBot4", 30, 4))
-f.showInfo()
+f.addBots(tntBot("tntBot4", "#tntBot4","#endTntBot4", 30, 4))
+f.addBots(oracleBot("chatBot", "#chatBot", "#endChatBot"))
+#f.showInfo()
 f.startManaging()
