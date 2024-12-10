@@ -23,7 +23,7 @@ class tntBot(fatherBot):
         start = time.time()
         while time.time() - start < self.duration and self.ini:
             time.sleep(tim)
-            playerPos = mc.player.getPos()
+            playerPos = mc.entity.getPos(self.playerId)
             mc.setBlock(playerPos.x,playerPos.y+4,playerPos.z, block.TNT.id, 1)
             mc.setBlock(playerPos.x,playerPos.y+5,playerPos.z, block.FIRE.id)
         if (self.ini): mc.postToChat(f"<{self.name}> Congratulations!! You win the game")

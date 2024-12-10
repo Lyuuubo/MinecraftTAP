@@ -1,5 +1,5 @@
 import mcpi.minecraft as minecraft  #Llibreria de minecraft
-import threading
+from threading import Thread
 import time
 from insultBot import insultBot
 from tnnnntBot import tntBot
@@ -32,9 +32,10 @@ class BotManager:
         else :
             return -1
 
-    def createThread(self, bot, mc):
+    def createThread(self, bot, playerId):
         #mc.postToChat("Creating Thread")
-        thread = threading.Thread(target=bot.iniBot)
+        bot.setPlayerId(playerId)
+        thread = Thread(target=bot.iniBot)
         thread.start()
 
     def showInfo(self):
@@ -55,26 +56,28 @@ class BotManager:
             for x in self.botList:
                 if x.ini: x.seeBot()
 
+    def checkchat(self, chatEvent):
+        message = chatEvent.message  #Agafem el darrem missatge
+        if message[0] == "#":  #Comprovem que s'hagi realitzat la comanda
+            self.comands(message)
+            indexA = self.returnIndexActive(message)
+            if indexA >= 0:
+                self.createThread(self.botList[indexA], chatEvent.entityId)
+            indexE = self.returnIndexEnd(message)
+            if indexE >= 0:
+                self.botList[indexE].ini = False
+        else :
+            self.notifyBots(chatEvent)
+
+
     def startManaging(self):
         while True:
             time.sleep(1) 
             posts = mc.events.pollChatPosts()  #Obtenim els missatges que introdueix l'usuari pel chat
             if posts:
-                chat = [chatEvent.message for chatEvent in posts if chatEvent.message is not None] #Per cada chatEvent que es troba a chat, agafem chatEvent.message
-                lastMessage = chat[-1]  #Agafem el darrem missatge
-                if lastMessage[0] == "#":  #Comprovem que s'hagi realitzat la comanda
-                    self.comands(lastMessage)
-                    indexA = self.returnIndexActive(lastMessage)
-                    #print(index)
-                    if indexA >= 0:
-                        #print(f"Bot: {index}")
-                        #self.botList[indexA].ini = True
-                        self.createThread(self.botList[indexA], mc)
-                    indexE = self.returnIndexEnd(lastMessage)
-                    if indexE >= 0:
-                        self.botList[indexE].ini = False
-                else :
-                    self.notifyBots(lastMessage)
+                for chat in posts:
+                    self.checkchat(chat)
+                
 
 
 f = BotManager()

@@ -17,7 +17,7 @@ class oracleBot(fatherBot):
             time.sleep(1)
             chat = self.accesChat()
             if len(chat) > 0:
-                response = model.generate_content(str(chat))
+                response = model.generate_content(str(chat[0].message))
                 print(response.text)
                 mc.postToChat(f"<{self.name}> {response.text}")
                 self.refresh()
