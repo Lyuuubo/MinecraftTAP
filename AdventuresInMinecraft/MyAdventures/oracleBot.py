@@ -11,7 +11,7 @@ class oracleBot(fatherBot):
 
     def iniBot(self):
         self.startBot()
-        genai.configure(api_key='AIzaSyAiwmxgeQvufzHZ_XnDhbKQ92Iwfe_KOCs')
+        genai.configure(api_key='AIzaSyC7QN5XxtTguQK6CxrrCL9B1c6yo2IdF48')
         model = genai.GenerativeModel("gemini-1.5-flash")
         while self.ini:
             time.sleep(1)

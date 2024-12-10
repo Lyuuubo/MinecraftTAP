@@ -70,24 +70,22 @@ class BotManager:
             self.notifyBots(chatEvent)
 
 
-    def startManaging(self):
+    def startManaging(self): #,server
         while True:
             time.sleep(1) 
             posts = mc.events.pollChatPosts()  #Obtenim els missatges que introdueix l'usuari pel chat
             if posts:
                 for chat in posts:
-                    self.checkchat(chat)
-                
+                    self.checkchat(chat)    
 
-
-f = BotManager()
-f.addBots(insultBot("insultBot1", "#insultBot1", "#endInsultBot1"))
-f.addBots(insultBot("insultBot2", "#insultBot2", "#endInsultBot2"))
+#f = BotManager()
+#f.addBots(insultBot("insultBot1", "#insultBot1", "#endInsultBot1"))
+#f.addBots(insultBot("insultBot2", "#insultBot2", "#endInsultBot2"))
 #f.addBots(tntBot("tntBot1", "#tntBot1", 30, 1))
 #f.addBots(tntBot("tntBot2", "#tntBot2", 30, 2))
 #f.addBots(tntBot("tntBot3", "#tntBot3", 30, 3))
-f.addBots(tntBot("tntBot4", "#tntBot4","#endTntBot4", 30, 4))
-f.addBots(oracleBot("chatBot", "#chatBot", "#endChatBot"))
-print("Bots activats")
+#f.addBots(tntBot("tntBot4", "#tntBot4","#endTntBot4", 30, 4))
+#f.addBots(oracleBot("chatBot", "#chatBot", "#endChatBot"))
+#print("Bots activats")
 #f.showInfo()
-f.startManaging()
+#f.startManaging()
