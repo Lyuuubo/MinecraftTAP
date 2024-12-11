@@ -35,7 +35,7 @@ class BotManager:
     def createThread(self, bot, playerId):
         #mc.postToChat("Creating Thread")
         bot.setPlayerId(playerId)
-        thread = Thread(target=bot.iniBot)
+        thread = Thread(target=bot.iniBot)#, args=(playerId))
         thread.start()
 
     def showInfo(self):
@@ -55,8 +55,20 @@ class BotManager:
         elif message == "#showActiveBots":
             for x in self.botList:
                 if x.ini: x.seeBot()
+        else:
+            msg = message.split(" ")
+            if len(msg) == 2 and msg[0] == "#showInsults":
+                try:
+                    nameList = [bot.name for bot in self.botList]
+                    index = nameList.index(msg[1])
+                    mc.postToChat(f"<System> {self.botList[index].showInsults()}")
+                except ValueError:
+                    mc.postToChat(f"<System> {msg[1]} is not a correct Bot")
+                #except AttributeError:
+                    #mc.postToChat(f"<System> {msg[1]} is not a insult Bot")
+                
 
-    def checkchat(self, chatEvent):
+    def checkChat(self, chatEvent):
         message = chatEvent.message  #Agafem el darrem missatge
         if message[0] == "#":  #Comprovem que s'hagi realitzat la comanda
             self.comands(message)
@@ -70,22 +82,10 @@ class BotManager:
             self.notifyBots(chatEvent)
 
 
-    def startManaging(self): #,server
+    def startManaging(self):
         while True:
             time.sleep(1) 
             posts = mc.events.pollChatPosts()  #Obtenim els missatges que introdueix l'usuari pel chat
             if posts:
                 for chat in posts:
-                    self.checkchat(chat)    
-
-#f = BotManager()
-#f.addBots(insultBot("insultBot1", "#insultBot1", "#endInsultBot1"))
-#f.addBots(insultBot("insultBot2", "#insultBot2", "#endInsultBot2"))
-#f.addBots(tntBot("tntBot1", "#tntBot1", 30, 1))
-#f.addBots(tntBot("tntBot2", "#tntBot2", 30, 2))
-#f.addBots(tntBot("tntBot3", "#tntBot3", 30, 3))
-#f.addBots(tntBot("tntBot4", "#tntBot4","#endTntBot4", 30, 4))
-#f.addBots(oracleBot("chatBot", "#chatBot", "#endChatBot"))
-#print("Bots activats")
-#f.showInfo()
-#f.startManaging()
+                    self.checkChat(chat)

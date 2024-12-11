@@ -13,5 +13,5 @@ class botInitialization:
         f.addBots(tntBot("tntBot", "#tntBot","#endTntBot", 30, 4))
         f.addBots(oracleBot("chatBot", "#chatBot", "#endChatBot"))
         print("Bots activats")
-        f.showInfo()
+        #f.showInfo()
         f.startManaging()

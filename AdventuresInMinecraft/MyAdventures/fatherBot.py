@@ -1,10 +1,10 @@
-import time
+from abc import ABC, abstractmethod
 import mcpi.minecraft as minecraft  #Llibreria de minecraft
 mc = minecraft.Minecraft.create()   #Crea connexiÃ³ amb minecraft
 
-class fatherBot:
-    def __init__ (self, name, comandA, comandE):
-        self.name = name   
+class fatherBot(ABC):
+    def __init__(self, name, comandA, comandE):
+        self.name = name
         self.comandActive = comandA
         self.comandEnd = comandE
         self.chatList = []
@@ -31,7 +31,7 @@ class fatherBot:
         self.ini = True
         print(f"<System> You started bot: {self.name}")
         mc.postToChat(f"<System> You started bot: {self.name}")
-    
+
     def notify(self, message):
         self.chatList.append(message)
 
@@ -41,8 +41,9 @@ class fatherBot:
     def accesChat(self):
         return self.chatList
 
+    @abstractmethod
     def iniBot(self):
         pass
 
     def comp(self, text):
-        return self.comand == text 
+        return self.comand == text

@@ -7,11 +7,11 @@ import time
 class oracleBot(fatherBot):
     def __init__(self, name, comandActive, comandEnd):
         super().__init__(name, comandActive, comandEnd)
-        
+
 
     def iniBot(self):
         self.startBot()
-        genai.configure(api_key='AIzaSyC7QN5XxtTguQK6CxrrCL9B1c6yo2IdF48')
+        genai.configure(api_key='AIzaSyAiwmxgeQvufzHZ_XnDhbKQ92Iwfe_KOCs')
         model = genai.GenerativeModel("gemini-1.5-flash")
         while self.ini:
             time.sleep(1)

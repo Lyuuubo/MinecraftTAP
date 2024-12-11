@@ -8,8 +8,8 @@ class insultBot(fatherBot):
     insults = ["TONTO","CAP D'ESPINACA","INUTIL","LA TEVA PRACTICA ÉS TERRIBLE",
                "ETS TANT POC IMPORTANT QUE NO VAL LA PENA INSULTARTE"]
 
-    def init(self, name, comandA, comandE):
-        super().init(name, comandA, comandE)
+    def __init__(self, name, comandA, comandE):
+        super().__init__(name, comandA, comandE)
 
     def iniBot(self):
         self.startBot()
@@ -20,3 +20,6 @@ class insultBot(fatherBot):
                 mc.postToChat(f"<{self.name}> {random.choice(self.insults)}")
                 self.refresh()
         self.stopBot()
+
+    def showInsults(self):
+        return self.insults
