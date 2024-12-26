@@ -15,14 +15,6 @@ class fatherBot(ABC):
         self.playerId = id
         print(f"Player id: {self.playerId}")
 
-    def seeBot(self):
-        print(f'Name: {self.name}')
-        print(f"Activation commad: {self.comandActive}")
-        print(f"Stop command: {self.comandEnd}")
-        mc.postToChat(f'<System> Name: {self.name}')
-        mc.postToChat(f"<System> Activation commad: {self.comandActive}")
-        mc.postToChat(f"<System> Stop command: {self.comandEnd}")
-
     def stopBot(self):
         print(f'<System> You stop bot: {self.name}')
         mc.postToChat(f'<System> You stop bot: {self.name}')
@@ -47,3 +39,20 @@ class fatherBot(ABC):
 
     def comp(self, text):
         return self.comand == text
+    
+    def allAttributes(self):
+        mc.postToChat(f'<System> Attr bot: {self.name}')
+        for name, value in self.__dict__.items():
+            mc.postToChat(f'  {name} : {value}')
+            print(f'  {name} : {value}')
+
+    def specificAttributes(self, values):
+            mc.postToChat(f'<System> Attr bot: {self.name}')
+            print(f'Attributes: {values}')
+            for val in values:
+                try:
+                    attribute = getattr(self, val)
+                    mc.postToChat(f'<System> {val} : {attribute}')
+                except AttributeError as e:
+                    print(e)
+                    mc.postToChat(f"<System> Attribute with name ({val}) doesen't exist")

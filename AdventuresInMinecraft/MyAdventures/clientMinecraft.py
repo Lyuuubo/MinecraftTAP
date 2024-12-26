@@ -1,4 +1,7 @@
-import Pyro4
-remote_executor = Pyro4.Proxy("PYRO:obj_4070561aac9f4e15b8f5b99969f1fed7@192.168.1.126:55888")
-result = remote_executor.run_executable()
+import Pyro5.api
+
+ns = Pyro5.api.locate_ns(host="192.168.154.37", port=9090)
+uri = ns.lookup("ServerMinecraft")
+remote_executor = Pyro5.api.Proxy(uri)
+result = remote_executor.run_executable("miau")
 print(result)
