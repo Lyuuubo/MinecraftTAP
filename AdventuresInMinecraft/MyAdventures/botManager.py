@@ -85,35 +85,52 @@ class BotManager():
     def comands(self, mess):
         usedCommand = False
         message = mess.split(" ")
-        comanda = message[0]
-        if comanda == "#stopBots": 
+        command = message[0]
+        if command == "#stopBots": 
             for x in self.botList:
                 x.ini = False
             usedCommand = True
-        elif comanda == "#showBots":  #En cas de showBots mostrem per pantalla tots els bots que pot controlar el manegador
+        elif command == "#showBots":  #En cas de showBots mostrem per pantalla tots els bots que pot controlar el manegador
             for bot in self.botList:
                 name = ["name","comandActive","comandEnd"]
                 bot.specificAttributes(name)
             usedCommand = True
-        elif comanda == "#showActiveBots":
+        elif command == "#showActiveBots":
             name = ["name","comandActive","comandEnd"]
             for bot in self.botList:
                 if bot.ini:  bot.specificAttributes(name)
             usedCommand = True
-        elif comanda == '#showAttr':
+        elif command == '#showAttr':
             if len(message) >= 2:
                 indexN = self.returnIndexName(message[1])
                 if indexN >= 0:
                     self.botList[indexN].allAttributes() 
-                else: mc.postToChat(f"<System> Doesen't exist a bot with name: {message[1]}")
+                else: mc.postToChat(f"<System> Doesn't exist a bot with name: {message[1]}")
                 usedCommand = True
             else: mc.postToChat(f"<System> Bad request (#showAttr nameBot)")
-        elif comanda == '#showSpecificAttr':
+        elif command == '#showSpecificAttr':
             if len(message) >= 3:
                 indexN = self.returnIndexName(message[1])
                 if indexN >= 0:
                     self.botList[indexN].specificAttributes(message[2:]) 
-                else: mc.postToChat(f"<System> Doesen't exist a bot with name: {message[1]}")
+                else: mc.postToChat(f"<System> Doesn't exist a bot with name: {message[1]}")
                 usedCommand = True
             else: mc.postToChat(f"<System> Bad request (#showSpecificAttr nameBot att1 attr2 ...)")
+        elif command == "#modifyAttribute":
+            if len(message) != 4:
+                mc.postToChat(f"<System> Bad request (#modifyAttribute nameBot attributeSelected newValue)")
+            else:
+                indexBot = self.returnIndexName(message[1])
+                if (indexBot >= 0):
+                    attributeSelected = message[2]
+                    if (self.botList[indexBot].containsAttribute(attributeSelected)):
+                        newValue = message[3]
+                        value = self.botList[indexBot].modifyAttribute(attributeSelected, newValue)
+                        print(value)
+                        mc.postToChat(f"<System>  You have modified: {attributeSelected}" + f" His new value is: {value}")
+                    else:
+                       mc.postToChat(f"<System>  Doesn't exist an attribute named: {attributeSelected}")
+                else:
+                    mc.postToChat(f"<System> Doesn't exist a bot with that name: {message[1]}")
+                
         return usedCommand  

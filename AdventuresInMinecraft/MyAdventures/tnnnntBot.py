@@ -31,3 +31,12 @@ class tntBot(fatherBot):
             mc.postToChat(f"<{self.name}> You are a looser") 
             self.stopBot()
         self.ini = False
+
+    def modifyAttribute(self, attribute, newValue):
+        if (str(attribute) == "lvl"):
+            if (int(newValue) > 4):
+                newValue = 4
+            elif(int(newValue) < 0):
+                newValue = 1
+        setattr(self, attribute, newValue)
+        return newValue

@@ -56,3 +56,12 @@ class fatherBot(ABC):
                 except AttributeError as e:
                     print(e)
                     mc.postToChat(f"<System> Attribute with name ({val}) doesen't exist")
+
+    
+
+    def containsAttribute(self, value):
+        return hasattr(self, value)
+    
+    def modifyAttribute(self, attribute, newValue):
+        setattr(self, attribute, newValue)
+        return newValue
