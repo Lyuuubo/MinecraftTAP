@@ -17,7 +17,7 @@ class tntBot(fatherBot):
         if self.lvl == 2: tim = 0.5
         elif self.lvl == 3: tim = 0.2
         elif self.lvl == 4: tim = 0.1
-        mc.postToChat(f"<{self.name}> Level: {self.lvl}, time: {tim}")
+        mc.postToChat(f"<{self.name}> Level: {self.lvl}, time: {self.duration}")
         mc.postToChat(f"<{self.name}> You have 5 s to run. HAHAHAHA!!")
         time.sleep(5)
         start = time.time()
@@ -38,5 +38,8 @@ class tntBot(fatherBot):
                 newValue = 4
             elif(int(newValue) < 0):
                 newValue = 1
-        setattr(self, attribute, newValue)
+        if (str(attribute) == "lvl" or str(attribute) == "duration"):
+            setattr(self, attribute, int(newValue))
+        else:
+            setattr(self, attribute, newValue)
         return newValue

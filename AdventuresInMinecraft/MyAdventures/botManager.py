@@ -1,4 +1,3 @@
-
 from threading import Thread, Lock
 import mcpi.minecraft as minecraft  #Llibreria de minecraft
 import time

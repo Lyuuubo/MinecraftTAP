@@ -1,8 +1,8 @@
 from threading import Thread
-from Bots.botManager import BotManager
-from Bots.tnnnntBot import tntBot
-from Bots.oracleBot import oracleBot
-from Bots.insultBot import insultBot
+from botManager import BotManager
+from tnnnntBot import tntBot
+from oracleBot import oracleBot
+from insultBot import insultBot
 import mcpi.minecraft as minecraft  #Llibreria de minecraft
 
 mc = minecraft.Minecraft.create()   #Crea connexiÃ³ amb minecraft
