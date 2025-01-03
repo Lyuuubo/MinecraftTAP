@@ -57,8 +57,6 @@ class fatherBot(ABC):
                     print(e)
                     mc.postToChat(f"<System> Attribute with name ({val}) doesen't exist")
 
-    
-
     def containsAttribute(self, value):
         return hasattr(self, value)
     

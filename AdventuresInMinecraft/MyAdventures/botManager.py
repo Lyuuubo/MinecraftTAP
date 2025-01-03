@@ -13,6 +13,7 @@ class BotManager():
             if self.instance is None:
                 self.instance = super().__new__(self)
                 self.botList = []
+                self.final = False
         return self.instance
 
     def addBots(self, bot):
@@ -56,8 +57,8 @@ class BotManager():
             x.seeBot()
 
     def notifyBots(self, message):
-        for x in self.botList:  #Per cada Bot
-            if x.ini:  x.notify(message) #El notifiquem si esta actiu
+        for x in self.botList:      #Per cada Bot
+            if x.ini:  x.notify(message)    #El notifiquem si esta actiu
 
     def checkChat(self, chatEvent):
         message = chatEvent.message  #Agafem el darrem missatge
@@ -72,10 +73,10 @@ class BotManager():
                     if indexE >= 0:
                         self.botList[indexE].ini = False
         else :
-            self.notifyBots(chatEvent)
+            self.notifyBots(chatEvent)      #En cas de no ser una comanda notifiquem als bots
 
     def startManaging(self):
-        while True:
+        while not self.final:
             time.sleep(1) 
             posts = mc.events.pollChatPosts()  #Obtenim els missatges que introdueix l'usuari pel chat
             if posts:
@@ -131,6 +132,6 @@ class BotManager():
                     else:
                        mc.postToChat(f"<System>  Doesn't exist an attribute named: {attributeSelected}")
                 else:
-                    mc.postToChat(f"<System> Doesn't exist a bot with that name: {message[1]}")
-                
+                    mc.postToChat(f"<System> Doesn't exist a bot with that name: {message[1]}")  
+            usedCommand = True
         return usedCommand  

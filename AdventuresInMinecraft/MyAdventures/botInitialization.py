@@ -1,3 +1,4 @@
+from threading import Thread
 from botManager import BotManager
 from tnnnntBot import tntBot
 from oracleBot import oracleBot
@@ -8,21 +9,26 @@ mc = minecraft.Minecraft.create()   #Crea connexiÃ³ amb minecraft
 
 class botInitialization:
     def __init__(self):
+        self.f = BotManager()
         pass
 
     def initialization(self):
-        f = BotManager()
-        f.addBots(insultBot("insultBot1", "#insultBot1", "#endInsultBot1"))
-        f.addBots(insultBot("insultBot2", "#insultBot2", "#endInsultBot2"))
+        self.f.addBots(insultBot("insultBot1", "#insultBot1", "#endInsultBot1"))
+        self.f.addBots(insultBot("insultBot2", "#insultBot2", "#endInsultBot2"))
         # #f.addBots(tntBot("tntBot1", "#tntBot1", 30, 1))
         # #f.addBots(tntBot("tntBot2", "#tntBot2", 30, 2))
         # #f.addBots(tntBot("tntBot3", "#tntBot3", 30, 3))
-        f.addBots(tntBot("tntBot", "#tntBot","#endTntBot", 30, 4))
-        f.addBots(oracleBot("chatBot", "#chatBot", "#endChatBot"))
-        print("Bots activats")
-        mc.postToChat("Bots activats")
+        self.f.addBots(tntBot("tntBot", "#tntBot","#endTntBot", 30, 4))
+        self.f.addBots(oracleBot("chatBot", "#chatBot", "#endChatBot"))
         # #f.showInfo()
-        f.startManaging()
+        thread = Thread(target=self.f.startManaging)#, args=(playerId))
+        thread.start()
+        print("Bots activats")
+        mc.postToChat("<System> Bots active")
+    
+    def finalManaging(self):
+        self.f.final = True
+        mc.postToChat("<System> Bots inactive")
 
 bot = botInitialization()
 bot.initialization()
