@@ -1,5 +1,6 @@
-import mcpi.minecraft as minecraft  #Llibreria de minecraft
+
 from threading import Thread, Lock
+import mcpi.minecraft as minecraft  #Llibreria de minecraft
 import time
 
 mc = minecraft.Minecraft.create()   #Crea connexió amb minecraft
@@ -102,6 +103,7 @@ class BotManager():
                 if bot.ini:  bot.specificAttributes(name)
             usedCommand = True
         elif command == '#showAttr':
+            print("babunguers")
             if len(message) >= 2:
                 indexN = self.returnIndexName(message[1])
                 if indexN >= 0:
