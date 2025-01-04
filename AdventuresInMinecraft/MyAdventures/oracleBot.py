@@ -19,10 +19,10 @@ class oracleBot(fatherBot):
             if len(chat) > 0:
                 try:
                     mc.postToChat(f"<{self.name}> ...")
-                    response = model.generate_content(str(chat[0].message))
+                    response = model.generate_content(str(chat[0]))
                     self.printText(response)
                 except Exception as e:
-                    print(e)
+                    #print(e)
                     mc.postToChat(f"<{self.name}> Error with this request")
                 self.refresh()
         self.stopBot()
@@ -35,7 +35,7 @@ class oracleBot(fatherBot):
                 if not self.ini:
                     break
                 time.sleep(2)
-                print(text)
+                #print(text)
                 if len(text) == 0:
                     mc.postToChat(f"{text}")
                 else:

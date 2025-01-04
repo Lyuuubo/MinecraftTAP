@@ -58,7 +58,7 @@ class BotManager():
 
     def notifyBots(self, message):
         for x in self.botList:      #Per cada Bot
-            if x.ini:  x.notify(message)    #El notifiquem si esta actiu
+            if x.ini:  x.notify(message.message)    #El notifiquem si esta actiu
 
     def checkChat(self, chatEvent):
         message = chatEvent.message  #Agafem el darrem missatge

@@ -9,7 +9,7 @@ class insultBot(fatherBot):
     #          "ETS TANT POC IMPORTANT QUE NO VAL LA PENA INSULTARTE"]
 
     def __init__(self, name, comandA, comandE):
-        self.insults = ["TONTO","CAP D'ESPINACA","INUTIL","LA TEVA PRACTICA ÉS TERRIBLE",
+        self.insults = ["TONTO","CAP D'ESPINACA","INUTIL","LA TEVA PRACTICA ES TERRIBLE",
                "ETS TANT POC IMPORTANT QUE NO VAL LA PENA INSULTARTE"]
         super().__init__(name, comandA, comandE)
 
