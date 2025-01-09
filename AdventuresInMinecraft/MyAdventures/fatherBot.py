@@ -37,8 +37,8 @@ class fatherBot(ABC):
     def iniBot(self):
         pass
 
-    def comp(self, text):
-        return self.comand == text
+    #def comp(self, text):
+     #   return self.comand == text
     
     def allAttributes(self):
         mc.postToChat(f'<System> Attr bot: {self.name}')

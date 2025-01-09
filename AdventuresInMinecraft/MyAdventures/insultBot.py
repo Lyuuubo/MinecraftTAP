@@ -22,6 +22,3 @@ class insultBot(fatherBot):
                 mc.postToChat(f"<{self.name}> {random.choice(self.insults)}")
                 self.refresh()
         self.stopBot()
-
-    def showInsults(self):
-        return self.insults

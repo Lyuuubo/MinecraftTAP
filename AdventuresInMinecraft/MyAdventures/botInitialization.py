@@ -23,12 +23,9 @@ class botInitialization:
         # #f.showInfo()
         thread = Thread(target=self.f.startManaging)#, args=(playerId))
         thread.start()
-        print("Bots activats")
-        mc.postToChat("<System> Bots active")
     
     def finalManaging(self):
         self.f.final = True
-        mc.postToChat("<System> Bots inactive")
 
 bot = botInitialization()
 bot.initialization()

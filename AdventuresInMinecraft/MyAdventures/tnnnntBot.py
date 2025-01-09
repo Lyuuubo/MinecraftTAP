@@ -18,8 +18,8 @@ class tntBot(fatherBot):
         elif self.lvl == 3: tim = 0.2
         elif self.lvl == 4: tim = 0.1
         mc.postToChat(f"<{self.name}> Level: {self.lvl}, time: {self.duration}")
-        mc.postToChat(f"<{self.name}> You have 5 s to run. HAHAHAHA!!")
-        time.sleep(5)
+        mc.postToChat(f"<{self.name}> You have 2 s to run. HAHAHAHA!!")
+        time.sleep(2)
         start = time.time()
         while time.time() - start < self.duration and self.ini:
             time.sleep(tim)
@@ -29,14 +29,13 @@ class tntBot(fatherBot):
         if (self.ini): mc.postToChat(f"<{self.name}> Congratulations!! You win the game")
         else: 
             mc.postToChat(f"<{self.name}> You are a looser") 
-            self.stopBot()
-        self.ini = False
+        self.stopBot()
 
     def modifyAttribute(self, attribute, newValue):
         if (str(attribute) == "lvl"):
             if (int(newValue) > 4):
                 newValue = 4
-            elif(int(newValue) < 0):
+            elif(int(newValue) < 1):
                 newValue = 1
         if (str(attribute) == "lvl" or str(attribute) == "duration"):
             setattr(self, attribute, int(newValue))

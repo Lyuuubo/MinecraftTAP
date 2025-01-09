@@ -52,9 +52,9 @@ class BotManager():
         thread = Thread(target=bot.iniBot)#, args=(playerId))
         thread.start()
 
-    def showInfo(self):
-        for x in self.botList:
-            x.seeBot()
+    #def showInfo(self):
+     #   for x in self.botList:
+      #      x.seeBot()
 
     def notifyBots(self, message):
         for x in self.botList:      #Per cada Bot
@@ -76,12 +76,14 @@ class BotManager():
             self.notifyBots(chatEvent)      #En cas de no ser una comanda notifiquem als bots
 
     def startManaging(self):
+        mc.postToChat("<System> Bots active")
         while not self.final:
             time.sleep(1) 
             posts = mc.events.pollChatPosts()  #Obtenim els missatges que introdueix l'usuari pel chat
             if posts:
                 for chat in posts:
                     self.checkChat(chat)
+        mc.postToChat("<System> Bots inactive")
 
     def comands(self, mess):
         usedCommand = False
@@ -102,7 +104,6 @@ class BotManager():
                 if bot.ini:  bot.specificAttributes(name)
             usedCommand = True
         elif command == '#showAttr':
-            print("babunguers")
             if len(message) >= 2:
                 indexN = self.returnIndexName(message[1])
                 if indexN >= 0:
@@ -128,10 +129,10 @@ class BotManager():
                     if (self.botList[indexBot].containsAttribute(attributeSelected)):
                         newValue = message[3]
                         value = self.botList[indexBot].modifyAttribute(attributeSelected, newValue)
-                        print(value)
-                        mc.postToChat(f"<System>  You have modified: {attributeSelected}" + f" His new value is: {value}")
+                        #print(value)
+                        mc.postToChat(f"<System> You have modified: {attributeSelected}" + f" His new value is: {value}")
                     else:
-                       mc.postToChat(f"<System>  Doesn't exist an attribute named: {attributeSelected}")
+                       mc.postToChat(f"<System> Doesn't exist an attribute named: {attributeSelected}")
                 else:
                     mc.postToChat(f"<System> Doesn't exist a bot with that name: {message[1]}")  
             usedCommand = True
