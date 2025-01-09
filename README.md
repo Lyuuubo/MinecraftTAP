@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/github/Lyuuubo/MinecraftTAP/graph/badge.svg?token=P24AREN92L)](https://codecov.io/github/Lyuuubo/MinecraftTAP)
+
 # MinecraftTAP
  Pràctica TAP de frameworks - Lyubo & Raúl
 
