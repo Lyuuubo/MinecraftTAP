@@ -198,3 +198,797 @@
 [19:12:26] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58598.
 [19:12:26] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58599.
 [19:12:26] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58600.
+[19:40:24] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59165.
+[19:40:24] [Thread-28/INFO]: [RaspberryJuice] Starting output thread!
+[19:40:24] [Thread-27/INFO]: [RaspberryJuice] Starting input thread
+[19:40:24] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59165.
+[19:40:37] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59171.
+[19:40:37] [Thread-29/INFO]: [RaspberryJuice] Starting input thread
+[19:40:37] [Thread-30/INFO]: [RaspberryJuice] Starting output thread!
+[19:40:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59171.
+[19:41:19] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59184.
+[19:41:19] [Thread-31/INFO]: [RaspberryJuice] Starting input thread
+[19:41:19] [Thread-32/INFO]: [RaspberryJuice] Starting output thread!
+[19:41:19] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59185.
+[19:41:19] [Thread-33/INFO]: [RaspberryJuice] Starting input thread
+[19:41:19] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59186.
+[19:41:19] [Thread-34/INFO]: [RaspberryJuice] Starting output thread!
+[19:41:19] [Thread-35/INFO]: [RaspberryJuice] Starting input thread
+[19:41:19] [Thread-36/INFO]: [RaspberryJuice] Starting output thread!
+[19:41:19] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59187.
+[19:41:19] [Thread-37/INFO]: [RaspberryJuice] Starting input thread
+[19:41:19] [Thread-38/INFO]: [RaspberryJuice] Starting output thread!
+[19:41:22] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59192.
+[19:41:22] [Thread-39/INFO]: [RaspberryJuice] Starting input thread
+[19:41:22] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59193.
+[19:41:22] [Thread-40/INFO]: [RaspberryJuice] Starting output thread!
+[19:41:22] [Thread-41/INFO]: [RaspberryJuice] Starting input thread
+[19:41:22] [Thread-42/INFO]: [RaspberryJuice] Starting output thread!
+[19:41:22] [Server thread/INFO]: <System> Bots active[m
+[19:41:33] [Thread-35/INFO]: [RaspberryJuice] Connection reset
+[19:41:33] [Thread-31/INFO]: [RaspberryJuice] Connection reset
+[19:41:33] [Thread-39/INFO]: [RaspberryJuice] Connection reset
+[19:41:33] [Thread-41/INFO]: [RaspberryJuice] Connection reset
+[19:41:33] [Thread-37/INFO]: [RaspberryJuice] Connection reset
+[19:41:33] [Thread-33/INFO]: [RaspberryJuice] Connection reset
+[19:41:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59184.
+[19:41:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59185.
+[19:41:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59186.
+[19:41:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59187.
+[19:41:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59192.
+[19:41:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59193.
+[19:41:35] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59199.
+[19:41:35] [Thread-43/INFO]: [RaspberryJuice] Starting input thread
+[19:41:35] [Thread-44/INFO]: [RaspberryJuice] Starting output thread!
+[19:41:35] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59199.
+[19:42:19] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59223.
+[19:42:19] [Thread-46/INFO]: [RaspberryJuice] Starting output thread!
+[19:42:19] [Thread-45/INFO]: [RaspberryJuice] Starting input thread
+[19:42:19] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59224.
+[19:42:19] [Thread-47/INFO]: [RaspberryJuice] Starting input thread
+[19:42:19] [Thread-48/INFO]: [RaspberryJuice] Starting output thread!
+[19:42:19] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59225.
+[19:42:19] [Thread-49/INFO]: [RaspberryJuice] Starting input thread
+[19:42:19] [Thread-50/INFO]: [RaspberryJuice] Starting output thread!
+[19:42:19] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59226.
+[19:42:19] [Thread-51/INFO]: [RaspberryJuice] Starting input thread
+[19:42:19] [Thread-52/INFO]: [RaspberryJuice] Starting output thread!
+[19:42:21] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59233.
+[19:42:21] [Thread-53/INFO]: [RaspberryJuice] Starting input thread
+[19:42:21] [Thread-54/INFO]: [RaspberryJuice] Starting output thread!
+[19:42:21] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59234.
+[19:42:21] [Thread-56/INFO]: [RaspberryJuice] Starting output thread!
+[19:42:21] [Thread-55/INFO]: [RaspberryJuice] Starting input thread
+[19:42:21] [Server thread/INFO]: <System> Bots active[m
+[19:42:28] [Thread-53/INFO]: [RaspberryJuice] Connection reset
+[19:42:28] [Thread-45/INFO]: [RaspberryJuice] Connection reset
+[19:42:28] [Thread-55/INFO]: [RaspberryJuice] Connection reset
+[19:42:28] [Thread-51/INFO]: [RaspberryJuice] Connection reset
+[19:42:28] [Thread-49/INFO]: [RaspberryJuice] Connection reset
+[19:42:28] [Thread-47/INFO]: [RaspberryJuice] Connection reset
+[19:42:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59223.
+[19:42:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59224.
+[19:42:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59225.
+[19:42:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59226.
+[19:42:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59233.
+[19:42:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59234.
+[19:43:09] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59254.
+[19:43:09] [Thread-57/INFO]: [RaspberryJuice] Starting input thread
+[19:43:09] [Thread-58/INFO]: [RaspberryJuice] Starting output thread!
+[19:43:09] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59254.
+[19:44:37] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59270.
+[19:44:37] [Thread-59/INFO]: [RaspberryJuice] Starting input thread
+[19:44:37] [Thread-60/INFO]: [RaspberryJuice] Starting output thread!
+[19:44:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59270.
+[19:45:36] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59285.
+[19:45:36] [Thread-62/INFO]: [RaspberryJuice] Starting output thread!
+[19:45:36] [Thread-61/INFO]: [RaspberryJuice] Starting input thread
+[19:45:36] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59286.
+[19:45:36] [Thread-63/INFO]: [RaspberryJuice] Starting input thread
+[19:45:36] [Thread-64/INFO]: [RaspberryJuice] Starting output thread!
+[19:45:36] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59287.
+[19:45:36] [Thread-65/INFO]: [RaspberryJuice] Starting input thread
+[19:45:36] [Thread-66/INFO]: [RaspberryJuice] Starting output thread!
+[19:45:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59285.
+[19:45:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59286.
+[19:45:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59287.
+[19:46:15] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59301.
+[19:46:15] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59302.
+[19:46:15] [Thread-68/INFO]: [RaspberryJuice] Starting output thread!
+[19:46:15] [Thread-67/INFO]: [RaspberryJuice] Starting input thread
+[19:46:15] [Thread-69/INFO]: [RaspberryJuice] Starting input thread
+[19:46:15] [Thread-70/INFO]: [RaspberryJuice] Starting output thread!
+[19:46:20] [Thread-69/INFO]: [RaspberryJuice] Connection reset
+[19:46:20] [Thread-67/INFO]: [RaspberryJuice] Connection reset
+[19:46:20] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59301.
+[19:46:20] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59302.
+[19:46:25] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59307.
+[19:46:25] [Thread-71/INFO]: [RaspberryJuice] Starting input thread
+[19:46:25] [Thread-72/INFO]: [RaspberryJuice] Starting output thread!
+[19:46:25] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59308.
+[19:46:25] [Thread-73/INFO]: [RaspberryJuice] Starting input thread
+[19:46:25] [Thread-74/INFO]: [RaspberryJuice] Starting output thread!
+[19:46:25] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59309.
+[19:46:25] [Thread-76/INFO]: [RaspberryJuice] Starting output thread!
+[19:46:25] [Thread-75/INFO]: [RaspberryJuice] Starting input thread
+[19:46:25] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59307.
+[19:46:25] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59308.
+[19:46:25] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59309.
+[19:47:12] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59324.
+[19:47:12] [Thread-78/INFO]: [RaspberryJuice] Starting output thread!
+[19:47:12] [Thread-77/INFO]: [RaspberryJuice] Starting input thread
+[19:47:12] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59325.
+[19:47:12] [Thread-79/INFO]: [RaspberryJuice] Starting input thread
+[19:47:12] [Thread-80/INFO]: [RaspberryJuice] Starting output thread!
+[19:47:12] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59326.
+[19:47:12] [Thread-82/INFO]: [RaspberryJuice] Starting output thread!
+[19:47:12] [Thread-81/INFO]: [RaspberryJuice] Starting input thread
+[19:47:12] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59327.
+[19:47:12] [Thread-83/INFO]: [RaspberryJuice] Starting input thread
+[19:47:12] [Thread-84/INFO]: [RaspberryJuice] Starting output thread!
+[19:47:12] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59328.
+[19:47:12] [Thread-85/INFO]: [RaspberryJuice] Starting input thread
+[19:47:12] [Thread-86/INFO]: [RaspberryJuice] Starting output thread!
+[19:47:12] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59329.
+[19:47:12] [Thread-88/INFO]: [RaspberryJuice] Starting output thread!
+[19:47:12] [Thread-87/INFO]: [RaspberryJuice] Starting input thread
+[19:47:15] [Server thread/INFO]: <System> You started bot: insultBot1[m
+[19:47:16] [Server thread/INFO]: <insultBot1> LA TEVA PRACTICA ES TERRIBLE[m
+[19:47:18] [Server thread/INFO]: <System> You stop bot: insultBot1[m
+[19:47:18] [Server thread/INFO]: <System> You started bot: chatBot1[m
+[19:47:19] [Server thread/INFO]: <chatBot1> ...[m
+[19:47:21] [Server thread/INFO]: <tntBot1> Level: 4, time: 20[m
+[19:47:21] [Server thread/INFO]: <tntBot1> You have 2 s to run. HAHAHAHA!![m
+[19:47:21] [Server thread/INFO]: <System> You started bot: tntBot1[m
+[19:47:21] [Server thread/INFO]: <System> You stop bot: chatBot1[m
+[19:47:21] [Server thread/INFO]: <chatBot1> End message[m
+[19:47:23] [Server thread/INFO]: <tntBot1> You are a looser[m
+[19:47:23] [Server thread/INFO]: <System> You stop bot: tntBot1[m
+[19:47:24] [Server thread/INFO]: <System> Attr bot: insultBot2[m
+[19:47:24] [Server thread/INFO]: <System>  insults : ['TONTO', "CAP D'ESPINACA", 'INUTIL', 'LA TEVA PRACTICA ES TERRIBLE', 'ETS TANT POC IMPORTANT QUE NO VAL LA PENA INSULTARTE'][m
+[19:47:24] [Server thread/INFO]: <System>  name : insultBot2[m
+[19:47:24] [Server thread/INFO]: <System>  comandActive : #insultBot2[m
+[19:47:24] [Server thread/INFO]: <System>  comandEnd : #endInsultBot2[m
+[19:47:24] [Server thread/INFO]: <System>  chatList : [][m
+[19:47:24] [Server thread/INFO]: <System>  playerId : 0[m
+[19:47:24] [Server thread/INFO]: <System>  ini : False[m
+[19:47:25] [Server thread/INFO]: <System> Attr bot: chatBot2[m
+[19:47:25] [Server thread/INFO]: <System> name : chatBot2[m
+[19:47:25] [Server thread/INFO]: <System> comandEnd : #endChatBot2[m
+[19:47:25] [Server thread/INFO]: <System> Attribute with name (mec) doesen't exist[m
+[19:47:27] [Server thread/INFO]: <System> Bots active[m
+[19:47:29] [Server thread/INFO]: <System> Bots inactive[m
+[19:47:30] [Server thread/INFO]: <System> You started bot: insultMan1[m
+[19:47:30] [Server thread/INFO]: <System> You started bot: chatMan1[m
+[19:47:31] [Server thread/INFO]: <System> Attr bot: insultMan2[m
+[19:47:31] [Server thread/INFO]: <System> name : insultMan2[m
+[19:47:31] [Server thread/INFO]: <System> comandActive : #insultMan2[m
+[19:47:31] [Server thread/INFO]: <System> comandEnd : #endInsultMan2[m
+[19:47:31] [Server thread/INFO]: <System> Attr bot: chatMan2[m
+[19:47:31] [Server thread/INFO]: <System> name : chatMan2[m
+[19:47:31] [Server thread/INFO]: <System> comandActive : #chatMan2[m
+[19:47:31] [Server thread/INFO]: <System> comandEnd : #endChatMan2[m
+[19:47:31] [Server thread/INFO]: <chatMan1> ...[m
+[19:47:32] [Server thread/INFO]: <System> You stop bot: chatMan1[m
+[19:47:32] [Server thread/INFO]: <chatMan1> End message[m
+[19:47:32] [Server thread/INFO]: <insultMan1> TONTO[m
+[19:47:32] [Server thread/INFO]: <System> You stop bot: insultMan1[m
+[19:47:32] [Server thread/INFO]: <System> Attr bot: insultManErr[m
+[19:47:32] [Server thread/INFO]: <System> name : insultManErr[m
+[19:47:32] [Server thread/INFO]: <System> comandActive : #insultManErr[m
+[19:47:32] [Server thread/INFO]: <System> comandEnd : #endInsultManErr[m
+[19:47:33] [Server thread/INFO]: <System> Bad request (#showAttr nameBot)[m
+[19:47:33] [Server thread/INFO]: <System> Doesn't exist a bot with name: botInvented[m
+[19:47:33] [Server thread/INFO]: <System> Attr bot: chatManErr1[m
+[19:47:33] [Server thread/INFO]: <System>  name : chatManErr1[m
+[19:47:33] [Server thread/INFO]: <System>  comandActive : #chatManErr1[m
+[19:47:33] [Server thread/INFO]: <System>  comandEnd : #endChatManErr1[m
+[19:47:33] [Server thread/INFO]: <System>  chatList : [][m
+[19:47:33] [Server thread/INFO]: <System>  playerId : 0[m
+[19:47:33] [Server thread/INFO]: <System>  ini : False[m
+[19:47:34] [Server thread/INFO]: <System> Bad request (#showSpecificAttr nameBot att1 attr2 ...)[m
+[19:47:34] [Server thread/INFO]: <System> Doesn't exist a bot with name: botInvented[m
+[19:47:34] [Server thread/INFO]: <System> Attr bot: chatManErr2[m
+[19:47:34] [Server thread/INFO]: <System> name : chatManErr2[m
+[19:47:34] [Server thread/INFO]: <System> playerId : 0[m
+[19:47:34] [Server thread/INFO]: <System> chatList : ['Hola'][m
+[19:47:34] [Server thread/INFO]: <System> ini : False[m
+[19:47:34] [Server thread/INFO]: <System> Attribute with name (mec) doesen't exist[m
+[19:47:35] [Server thread/INFO]: <System> Bad request (#modifyAttribute nameBot attributeSelected newValue)[m
+[19:47:35] [Server thread/INFO]: <System> Doesn't exist a bot with that name: invMan[m
+[19:47:35] [Server thread/INFO]: <System> Doesn't exist an attribute named: mec[m
+[19:47:35] [Server thread/INFO]: <System> You have modified: lvl His new value is: 4[m
+[19:47:35] [Server thread/INFO]: <System> You have modified: lvl His new value is: 1[m
+[19:47:35] [Server thread/INFO]: <System> You have modified: name His new value is: botTnt[m
+[19:47:36] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59324.
+[19:47:36] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59325.
+[19:47:36] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59326.
+[19:47:36] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59327.
+[19:47:36] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59328.
+[19:47:36] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59329.
+[19:47:53] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59348.
+[19:47:53] [Thread-89/INFO]: [RaspberryJuice] Starting input thread
+[19:47:53] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59349.
+[19:47:53] [Thread-90/INFO]: [RaspberryJuice] Starting output thread!
+[19:47:53] [Thread-91/INFO]: [RaspberryJuice] Starting input thread
+[19:47:53] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59350.
+[19:47:53] [Thread-92/INFO]: [RaspberryJuice] Starting output thread!
+[19:47:53] [Thread-93/INFO]: [RaspberryJuice] Starting input thread
+[19:47:53] [Thread-94/INFO]: [RaspberryJuice] Starting output thread!
+[19:47:53] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59351.
+[19:47:53] [Thread-96/INFO]: [RaspberryJuice] Starting output thread!
+[19:47:53] [Thread-95/INFO]: [RaspberryJuice] Starting input thread
+[19:47:53] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59348.
+[19:47:53] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59349.
+[19:47:53] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59350.
+[19:47:53] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59351.
+[19:48:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59364.
+[19:48:28] [Thread-97/INFO]: [RaspberryJuice] Starting input thread
+[19:48:28] [Thread-98/INFO]: [RaspberryJuice] Starting output thread!
+[19:48:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59365.
+[19:48:28] [Thread-99/INFO]: [RaspberryJuice] Starting input thread
+[19:48:28] [Thread-100/INFO]: [RaspberryJuice] Starting output thread!
+[19:48:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59366.
+[19:48:28] [Thread-101/INFO]: [RaspberryJuice] Starting input thread
+[19:48:28] [Thread-102/INFO]: [RaspberryJuice] Starting output thread!
+[19:48:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59367.
+[19:48:28] [Thread-104/INFO]: [RaspberryJuice] Starting output thread!
+[19:48:28] [Thread-103/INFO]: [RaspberryJuice] Starting input thread
+[19:48:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59368.
+[19:48:28] [Thread-105/INFO]: [RaspberryJuice] Starting input thread
+[19:48:28] [Thread-106/INFO]: [RaspberryJuice] Starting output thread!
+[19:48:30] [Server thread/INFO]: <System> You started bot: insultBot1[m
+[19:48:31] [Server thread/INFO]: <insultBot1> ETS TANT POC IMPORTANT QUE NO VAL LA PENA INSULTARTE[m
+[19:48:33] [Server thread/INFO]: <System> You stop bot: insultBot1[m
+[19:48:33] [Server thread/INFO]: <System> You started bot: chatBot1[m
+[19:48:34] [Server thread/INFO]: <chatBot1> ...[m
+[19:48:36] [Server thread/INFO]: <tntBot1> Level: 4, time: 20[m
+[19:48:36] [Server thread/INFO]: <tntBot1> You have 2 s to run. HAHAHAHA!![m
+[19:48:36] [Server thread/INFO]: <System> You stop bot: chatBot1[m
+[19:48:36] [Server thread/INFO]: <System> You started bot: tntBot1[m
+[19:48:36] [Server thread/INFO]: <chatBot1> End message[m
+[19:48:38] [Server thread/INFO]: <tntBot1> You are a looser[m
+[19:48:38] [Server thread/INFO]: <System> You stop bot: tntBot1[m
+[19:48:39] [Server thread/INFO]: <System> Attr bot: insultBot2[m
+[19:48:39] [Server thread/INFO]: <System>  insults : ['TONTO', "CAP D'ESPINACA", 'INUTIL', 'LA TEVA PRACTICA ES TERRIBLE', 'ETS TANT POC IMPORTANT QUE NO VAL LA PENA INSULTARTE'][m
+[19:48:39] [Server thread/INFO]: <System>  name : insultBot2[m
+[19:48:39] [Server thread/INFO]: <System>  comandActive : #insultBot2[m
+[19:48:39] [Server thread/INFO]: <System>  comandEnd : #endInsultBot2[m
+[19:48:39] [Server thread/INFO]: <System>  chatList : [][m
+[19:48:39] [Server thread/INFO]: <System>  playerId : 0[m
+[19:48:39] [Server thread/INFO]: <System>  ini : False[m
+[19:48:40] [Server thread/INFO]: <System> Attr bot: chatBot2[m
+[19:48:40] [Server thread/INFO]: <System> name : chatBot2[m
+[19:48:40] [Server thread/INFO]: <System> comandEnd : #endChatBot2[m
+[19:48:40] [Server thread/INFO]: <System> Attribute with name (mec) doesen't exist[m
+[19:48:42] [Server thread/INFO]: <System> Bots active[m
+[19:48:44] [Server thread/INFO]: <System> Bots inactive[m
+[19:48:45] [Server thread/INFO]: <System> You started bot: insultMan1[m
+[19:48:45] [Server thread/INFO]: <System> You started bot: chatMan1[m
+[19:48:46] [Server thread/INFO]: <System> You stop bot: insultMan1[m
+[19:48:46] [Server thread/INFO]: <System> Attr bot: insultMan2[m
+[19:48:46] [Server thread/INFO]: <System> name : insultMan2[m
+[19:48:46] [Server thread/INFO]: <System> comandActive : #insultMan2[m
+[19:48:46] [Server thread/INFO]: <System> comandEnd : #endInsultMan2[m
+[19:48:46] [Server thread/INFO]: <System> Attr bot: chatMan2[m
+[19:48:46] [Server thread/INFO]: <System> name : chatMan2[m
+[19:48:46] [Server thread/INFO]: <System> comandActive : #chatMan2[m
+[19:48:46] [Server thread/INFO]: <System> comandEnd : #endChatMan2[m
+[19:48:46] [Server thread/INFO]: <insultMan1> TONTO[m
+[19:48:46] [Server thread/INFO]: <chatMan1> ...[m
+[19:48:47] [Server thread/INFO]: <System> Attr bot: insultManErr[m
+[19:48:47] [Server thread/INFO]: <System> name : insultManErr[m
+[19:48:47] [Server thread/INFO]: <System> comandActive : #insultManErr[m
+[19:48:47] [Server thread/INFO]: <System> comandEnd : #endInsultManErr[m
+[19:48:47] [Server thread/INFO]: <System> You stop bot: chatMan1[m
+[19:48:47] [Server thread/INFO]: <chatMan1> End message[m
+[19:48:48] [Server thread/INFO]: <System> Bad request (#showAttr nameBot)[m
+[19:48:48] [Server thread/INFO]: <System> Doesn't exist a bot with name: botInvented[m
+[19:48:48] [Server thread/INFO]: <System> Attr bot: chatManErr1[m
+[19:48:48] [Server thread/INFO]: <System>  name : chatManErr1[m
+[19:48:48] [Server thread/INFO]: <System>  comandActive : #chatManErr1[m
+[19:48:48] [Server thread/INFO]: <System>  comandEnd : #endChatManErr1[m
+[19:48:48] [Server thread/INFO]: <System>  chatList : [][m
+[19:48:48] [Server thread/INFO]: <System>  playerId : 0[m
+[19:48:48] [Server thread/INFO]: <System>  ini : False[m
+[19:48:49] [Server thread/INFO]: <System> Bad request (#showSpecificAttr nameBot att1 attr2 ...)[m
+[19:48:49] [Server thread/INFO]: <System> Doesn't exist a bot with name: botInvented[m
+[19:48:49] [Server thread/INFO]: <System> Attr bot: chatManErr2[m
+[19:48:49] [Server thread/INFO]: <System> name : chatManErr2[m
+[19:48:49] [Server thread/INFO]: <System> playerId : 0[m
+[19:48:49] [Server thread/INFO]: <System> chatList : ['Hola'][m
+[19:48:49] [Server thread/INFO]: <System> ini : False[m
+[19:48:49] [Server thread/INFO]: <System> Attribute with name (mec) doesen't exist[m
+[19:48:50] [Server thread/INFO]: <System> Bad request (#modifyAttribute nameBot attributeSelected newValue)[m
+[19:48:50] [Server thread/INFO]: <System> Doesn't exist a bot with that name: invMan[m
+[19:48:50] [Server thread/INFO]: <System> Doesn't exist an attribute named: mec[m
+[19:48:50] [Server thread/INFO]: <System> You have modified: lvl His new value is: 4[m
+[19:48:50] [Server thread/INFO]: <System> You have modified: lvl His new value is: 1[m
+[19:48:50] [Server thread/INFO]: <System> You have modified: name His new value is: botTnt[m
+[19:48:51] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59364.
+[19:48:51] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59365.
+[19:48:51] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59366.
+[19:48:51] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59367.
+[19:48:51] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59368.
+[19:50:42] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59400.
+[19:50:42] [Thread-107/INFO]: [RaspberryJuice] Starting input thread
+[19:50:42] [Thread-108/INFO]: [RaspberryJuice] Starting output thread!
+[19:50:43] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59401.
+[19:50:43] [Thread-110/INFO]: [RaspberryJuice] Starting output thread!
+[19:50:43] [Thread-109/INFO]: [RaspberryJuice] Starting input thread
+[19:50:43] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59402.
+[19:50:43] [Thread-111/INFO]: [RaspberryJuice] Starting input thread
+[19:50:43] [Thread-112/INFO]: [RaspberryJuice] Starting output thread!
+[19:50:43] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59403.
+[19:50:43] [Thread-113/INFO]: [RaspberryJuice] Starting input thread
+[19:50:43] [Thread-114/INFO]: [RaspberryJuice] Starting output thread!
+[19:50:43] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59404.
+[19:50:43] [Thread-115/INFO]: [RaspberryJuice] Starting input thread
+[19:50:43] [Thread-116/INFO]: [RaspberryJuice] Starting output thread!
+[19:50:44] [Server thread/INFO]: <System> You started bot: insultBot1[m
+[19:50:45] [Server thread/INFO]: <insultBot1> TONTO[m
+[19:50:46] [Server thread/INFO]: <System> You started bot: chatBot1[m
+[19:50:47] [Server thread/INFO]: <chatBot1> ...[m
+[19:50:48] [Server thread/INFO]: <tntBot1> Level: 4, time: 20[m
+[19:50:48] [Server thread/INFO]: <tntBot1> You have 2 s to run. HAHAHAHA!![m
+[19:50:48] [Server thread/INFO]: <System> You started bot: tntBot1[m
+[19:50:50] [Server thread/INFO]: <tntBot1> You are a looser[m
+[19:50:50] [Server thread/INFO]: <System> You stop bot: tntBot1[m
+[19:50:51] [Server thread/INFO]: <chatBot1> Hello there! How can I help you today?[m
+[19:50:53] [Server thread/INFO]: [m
+[19:50:53] [Server thread/INFO]: <chatBot1> End message[m
+[19:51:14] [Thread-111/INFO]: [RaspberryJuice] Connection reset
+[19:51:14] [Thread-109/INFO]: [RaspberryJuice] Connection reset
+[19:51:14] [Thread-107/INFO]: [RaspberryJuice] Connection reset
+[19:51:14] [Thread-113/INFO]: [RaspberryJuice] Connection reset
+[19:51:14] [Thread-115/INFO]: [RaspberryJuice] Connection reset
+[19:51:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59400.
+[19:51:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59401.
+[19:51:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59402.
+[19:51:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59403.
+[19:51:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59404.
+[19:51:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59419.
+[19:51:16] [Thread-117/INFO]: [RaspberryJuice] Starting input thread
+[19:51:16] [Thread-118/INFO]: [RaspberryJuice] Starting output thread!
+[19:51:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59420.
+[19:51:16] [Thread-120/INFO]: [RaspberryJuice] Starting output thread!
+[19:51:16] [Thread-119/INFO]: [RaspberryJuice] Starting input thread
+[19:51:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59421.
+[19:51:16] [Thread-122/INFO]: [RaspberryJuice] Starting output thread!
+[19:51:16] [Thread-121/INFO]: [RaspberryJuice] Starting input thread
+[19:51:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59422.
+[19:51:16] [Thread-124/INFO]: [RaspberryJuice] Starting output thread!
+[19:51:16] [Thread-123/INFO]: [RaspberryJuice] Starting input thread
+[19:51:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59423.
+[19:51:16] [Thread-125/INFO]: [RaspberryJuice] Starting input thread
+[19:51:16] [Thread-126/INFO]: [RaspberryJuice] Starting output thread!
+[19:51:18] [Server thread/INFO]: <System> You started bot: insultBot1[m
+[19:51:19] [Server thread/INFO]: <insultBot1> INUTIL[m
+[19:51:21] [Server thread/INFO]: <System> You stop bot: insultBot1[m
+[19:51:21] [Server thread/INFO]: <System> You started bot: chatBot1[m
+[19:51:22] [Server thread/INFO]: <chatBot1> ...[m
+[19:51:23] [Server thread/INFO]: <tntBot1> Level: 4, time: 20[m
+[19:51:23] [Server thread/INFO]: <tntBot1> You have 2 s to run. HAHAHAHA!![m
+[19:51:23] [Server thread/INFO]: <System> You stop bot: chatBot1[m
+[19:51:23] [Server thread/INFO]: <System> You started bot: tntBot1[m
+[19:51:23] [Server thread/INFO]: <chatBot1> End message[m
+[19:51:25] [Server thread/INFO]: <tntBot1> You are a looser[m
+[19:51:25] [Server thread/INFO]: <System> You stop bot: tntBot1[m
+[19:51:26] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59419.
+[19:51:26] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59420.
+[19:51:26] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59421.
+[19:51:26] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59422.
+[19:51:26] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59423.
+[19:52:13] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59443.
+[19:52:13] [Thread-127/INFO]: [RaspberryJuice] Starting input thread
+[19:52:13] [Thread-128/INFO]: [RaspberryJuice] Starting output thread!
+[19:52:13] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59444.
+[19:52:13] [Thread-129/INFO]: [RaspberryJuice] Starting input thread
+[19:52:13] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59445.
+[19:52:13] [Thread-130/INFO]: [RaspberryJuice] Starting output thread!
+[19:52:13] [Thread-131/INFO]: [RaspberryJuice] Starting input thread
+[19:52:13] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59446.
+[19:52:13] [Thread-132/INFO]: [RaspberryJuice] Starting output thread!
+[19:52:13] [Thread-133/INFO]: [RaspberryJuice] Starting input thread
+[19:52:13] [Thread-134/INFO]: [RaspberryJuice] Starting output thread!
+[19:52:13] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59447.
+[19:52:13] [Thread-135/INFO]: [RaspberryJuice] Starting input thread
+[19:52:13] [Thread-136/INFO]: [RaspberryJuice] Starting output thread!
+[19:52:15] [Server thread/INFO]: <System> Attr bot: insultBot2[m
+[19:52:15] [Server thread/INFO]: <System>  insults : ['TONTO', "CAP D'ESPINACA", 'INUTIL', 'LA TEVA PRACTICA ES TERRIBLE', 'ETS TANT POC IMPORTANT QUE NO VAL LA PENA INSULTARTE'][m
+[19:52:15] [Server thread/INFO]: <System>  name : insultBot2[m
+[19:52:15] [Server thread/INFO]: <System>  comandActive : #insultBot2[m
+[19:52:15] [Server thread/INFO]: <System>  comandEnd : #endInsultBot2[m
+[19:52:15] [Server thread/INFO]: <System>  chatList : [][m
+[19:52:15] [Server thread/INFO]: <System>  playerId : 0[m
+[19:52:15] [Server thread/INFO]: <System>  ini : False[m
+[19:52:16] [Server thread/INFO]: <System> Attr bot: chatBot2[m
+[19:52:16] [Server thread/INFO]: <System> name : chatBot2[m
+[19:52:16] [Server thread/INFO]: <System> comandEnd : #endChatBot2[m
+[19:52:16] [Server thread/INFO]: <System> Attribute with name (mec) doesen't exist[m
+[19:52:18] [Server thread/INFO]: <System> Bots active[m
+[19:52:20] [Server thread/INFO]: <System> Bots inactive[m
+[19:52:21] [Server thread/INFO]: <System> You started bot: insultMan1[m
+[19:52:21] [Server thread/INFO]: <System> You started bot: chatMan1[m
+[19:52:22] [Server thread/INFO]: <System> Attr bot: insultMan2[m
+[19:52:22] [Server thread/INFO]: <System> name : insultMan2[m
+[19:52:22] [Server thread/INFO]: <System> comandActive : #insultMan2[m
+[19:52:22] [Server thread/INFO]: <System> comandEnd : #endInsultMan2[m
+[19:52:22] [Server thread/INFO]: <System> Attr bot: chatMan2[m
+[19:52:22] [Server thread/INFO]: <System> name : chatMan2[m
+[19:52:22] [Server thread/INFO]: <System> comandActive : #chatMan2[m
+[19:52:22] [Server thread/INFO]: <System> comandEnd : #endChatMan2[m
+[19:52:23] [Server thread/INFO]: <System> You stop bot: insultMan1[m
+[19:52:23] [Server thread/INFO]: <insultMan1> ETS TANT POC IMPORTANT QUE NO VAL LA PENA INSULTARTE[m
+[19:52:23] [Server thread/INFO]: <chatMan1> ...[m
+[19:52:23] [Server thread/INFO]: <System> Attr bot: insultManErr[m
+[19:52:23] [Server thread/INFO]: <System> name : insultManErr[m
+[19:52:23] [Server thread/INFO]: <System> comandActive : #insultManErr[m
+[19:52:23] [Server thread/INFO]: <System> comandEnd : #endInsultManErr[m
+[19:52:24] [Server thread/INFO]: <System> Bad request (#showAttr nameBot)[m
+[19:52:24] [Server thread/INFO]: <System> Doesn't exist a bot with name: botInvented[m
+[19:52:24] [Server thread/INFO]: <System> Attr bot: chatManErr1[m
+[19:52:24] [Server thread/INFO]: <System>  name : chatManErr1[m
+[19:52:24] [Server thread/INFO]: <System>  comandActive : #chatManErr1[m
+[19:52:24] [Server thread/INFO]: <System>  comandEnd : #endChatManErr1[m
+[19:52:24] [Server thread/INFO]: <System>  chatList : [][m
+[19:52:24] [Server thread/INFO]: <System>  playerId : 0[m
+[19:52:24] [Server thread/INFO]: <System>  ini : False[m
+[19:52:24] [Server thread/INFO]: <System> You stop bot: chatMan1[m
+[19:52:24] [Server thread/INFO]: <chatMan1> End message[m
+[19:52:25] [Server thread/INFO]: <System> Bad request (#showSpecificAttr nameBot att1 attr2 ...)[m
+[19:52:25] [Server thread/INFO]: <System> Doesn't exist a bot with name: botInvented[m
+[19:52:25] [Server thread/INFO]: <System> Attr bot: chatManErr2[m
+[19:52:25] [Server thread/INFO]: <System> name : chatManErr2[m
+[19:52:25] [Server thread/INFO]: <System> playerId : 0[m
+[19:52:25] [Server thread/INFO]: <System> chatList : ['Hola'][m
+[19:52:25] [Server thread/INFO]: <System> ini : False[m
+[19:52:25] [Server thread/INFO]: <System> Attribute with name (mec) doesen't exist[m
+[19:52:26] [Server thread/INFO]: <System> Bad request (#modifyAttribute nameBot attributeSelected newValue)[m
+[19:52:26] [Server thread/INFO]: <System> Doesn't exist a bot with that name: invMan[m
+[19:52:26] [Server thread/INFO]: <System> Doesn't exist an attribute named: mec[m
+[19:52:26] [Server thread/INFO]: <System> You have modified: lvl His new value is: 4[m
+[19:52:26] [Server thread/INFO]: <System> You have modified: lvl His new value is: 1[m
+[19:52:26] [Server thread/INFO]: <System> You have modified: name His new value is: botTnt[m
+[19:52:27] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59443.
+[19:52:27] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59444.
+[19:52:27] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59445.
+[19:52:27] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59446.
+[19:52:27] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59447.
+[19:53:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59459.
+[19:53:02] [Thread-138/INFO]: [RaspberryJuice] Starting output thread!
+[19:53:02] [Thread-137/INFO]: [RaspberryJuice] Starting input thread
+[19:53:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59460.
+[19:53:02] [Thread-140/INFO]: [RaspberryJuice] Starting output thread!
+[19:53:02] [Thread-139/INFO]: [RaspberryJuice] Starting input thread
+[19:53:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59461.
+[19:53:02] [Thread-142/INFO]: [RaspberryJuice] Starting output thread!
+[19:53:02] [Thread-141/INFO]: [RaspberryJuice] Starting input thread
+[19:53:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59462.
+[19:53:02] [Thread-144/INFO]: [RaspberryJuice] Starting output thread!
+[19:53:02] [Thread-143/INFO]: [RaspberryJuice] Starting input thread
+[19:53:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59463.
+[19:53:02] [Thread-146/INFO]: [RaspberryJuice] Starting output thread!
+[19:53:02] [Thread-145/INFO]: [RaspberryJuice] Starting input thread
+[19:53:04] [Server thread/INFO]: <System> You started bot: insultBot1[m
+[19:53:05] [Server thread/INFO]: <insultBot1> ETS TANT POC IMPORTANT QUE NO VAL LA PENA INSULTARTE[m
+[19:53:07] [Server thread/INFO]: <System> You stop bot: insultBot1[m
+[19:53:07] [Server thread/INFO]: <System> You started bot: chatBot1[m
+[19:53:08] [Server thread/INFO]: <chatBot1> ...[m
+[19:53:09] [Server thread/INFO]: <tntBot1> Level: 4, time: 20[m
+[19:53:09] [Server thread/INFO]: <tntBot1> You have 2 s to run. HAHAHAHA!![m
+[19:53:09] [Server thread/INFO]: <System> You stop bot: chatBot1[m
+[19:53:09] [Server thread/INFO]: <System> You started bot: tntBot1[m
+[19:53:09] [Server thread/INFO]: <chatBot1> End message[m
+[19:53:11] [Server thread/INFO]: <tntBot1> You are a looser[m
+[19:53:11] [Server thread/INFO]: <System> You stop bot: tntBot1[m
+[19:53:12] [Server thread/INFO]: <System> Attr bot: insultBot2[m
+[19:53:12] [Server thread/INFO]: <System>  insults : ['TONTO', "CAP D'ESPINACA", 'INUTIL', 'LA TEVA PRACTICA ES TERRIBLE', 'ETS TANT POC IMPORTANT QUE NO VAL LA PENA INSULTARTE'][m
+[19:53:12] [Server thread/INFO]: <System>  name : insultBot2[m
+[19:53:12] [Server thread/INFO]: <System>  comandActive : #insultBot2[m
+[19:53:12] [Server thread/INFO]: <System>  comandEnd : #endInsultBot2[m
+[19:53:12] [Server thread/INFO]: <System>  chatList : [][m
+[19:53:12] [Server thread/INFO]: <System>  playerId : 0[m
+[19:53:12] [Server thread/INFO]: <System>  ini : False[m
+[19:53:13] [Server thread/INFO]: <System> Attr bot: chatBot2[m
+[19:53:13] [Server thread/INFO]: <System> name : chatBot2[m
+[19:53:13] [Server thread/INFO]: <System> comandEnd : #endChatBot2[m
+[19:53:13] [Server thread/INFO]: <System> Attribute with name (mec) doesen't exist[m
+[19:53:15] [Server thread/INFO]: <System> Bots active[m
+[19:53:17] [Server thread/INFO]: <System> Bots inactive[m
+[19:53:18] [Server thread/INFO]: <System> You started bot: insultMan1[m
+[19:53:18] [Server thread/INFO]: <System> You started bot: chatMan1[m
+[19:53:19] [Server thread/INFO]: <System> Attr bot: insultMan2[m
+[19:53:19] [Server thread/INFO]: <System> name : insultMan2[m
+[19:53:19] [Server thread/INFO]: <System> comandActive : #insultMan2[m
+[19:53:19] [Server thread/INFO]: <System> comandEnd : #endInsultMan2[m
+[19:53:19] [Server thread/INFO]: <chatMan1> ...[m
+[19:53:19] [Server thread/INFO]: <System> Attr bot: chatMan2[m
+[19:53:19] [Server thread/INFO]: <System> name : chatMan2[m
+[19:53:19] [Server thread/INFO]: <System> comandActive : #chatMan2[m
+[19:53:19] [Server thread/INFO]: <System> comandEnd : #endChatMan2[m
+[19:53:20] [Server thread/INFO]: <System> You stop bot: insultMan1[m
+[19:53:20] [Server thread/INFO]: <insultMan1> ETS TANT POC IMPORTANT QUE NO VAL LA PENA INSULTARTE[m
+[19:53:20] [Server thread/INFO]: <System> Attr bot: insultManErr[m
+[19:53:20] [Server thread/INFO]: <System> name : insultManErr[m
+[19:53:20] [Server thread/INFO]: <System> comandActive : #insultManErr[m
+[19:53:20] [Server thread/INFO]: <System> comandEnd : #endInsultManErr[m
+[19:53:20] [Server thread/INFO]: <System> You stop bot: chatMan1[m
+[19:53:20] [Server thread/INFO]: <chatMan1> End message[m
+[19:53:21] [Server thread/INFO]: <System> Attr bot: chatManErr1[m
+[19:53:21] [Server thread/INFO]: <System>  name : chatManErr1[m
+[19:53:21] [Server thread/INFO]: <System>  comandActive : #chatManErr1[m
+[19:53:21] [Server thread/INFO]: <System>  comandEnd : #endChatManErr1[m
+[19:53:21] [Server thread/INFO]: <System>  chatList : [][m
+[19:53:21] [Server thread/INFO]: <System>  playerId : 0[m
+[19:53:21] [Server thread/INFO]: <System>  ini : False[m
+[19:53:21] [Server thread/INFO]: <System> Bad request (#showAttr nameBot)[m
+[19:53:21] [Server thread/INFO]: <System> Doesn't exist a bot with name: botInvented[m
+[19:53:22] [Server thread/INFO]: <System> Attr bot: chatManErr2[m
+[19:53:22] [Server thread/INFO]: <System> name : chatManErr2[m
+[19:53:22] [Server thread/INFO]: <System> playerId : 0[m
+[19:53:22] [Server thread/INFO]: <System> chatList : ['Hola'][m
+[19:53:22] [Server thread/INFO]: <System> ini : False[m
+[19:53:22] [Server thread/INFO]: <System> Attribute with name (mec) doesen't exist[m
+[19:53:22] [Server thread/INFO]: <System> Bad request (#showSpecificAttr nameBot att1 attr2 ...)[m
+[19:53:22] [Server thread/INFO]: <System> Doesn't exist a bot with name: botInvented[m
+[19:53:23] [Server thread/INFO]: <System> Bad request (#modifyAttribute nameBot attributeSelected newValue)[m
+[19:53:23] [Server thread/INFO]: <System> Doesn't exist a bot with that name: invMan[m
+[19:53:23] [Server thread/INFO]: <System> Doesn't exist an attribute named: mec[m
+[19:53:23] [Server thread/INFO]: <System> You have modified: lvl His new value is: 4[m
+[19:53:23] [Server thread/INFO]: <System> You have modified: lvl His new value is: 1[m
+[19:53:23] [Server thread/INFO]: <System> You have modified: name His new value is: botTnt[m
+[19:53:24] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59459.
+[19:53:24] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59460.
+[19:53:24] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59461.
+[19:53:24] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59462.
+[19:53:24] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59463.
+[19:55:23] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59530.
+[19:55:23] [Thread-148/INFO]: [RaspberryJuice] Starting output thread!
+[19:55:23] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59531.
+[19:55:23] [Thread-147/INFO]: [RaspberryJuice] Starting input thread
+[19:55:23] [Thread-150/INFO]: [RaspberryJuice] Starting output thread!
+[19:55:23] [Thread-149/INFO]: [RaspberryJuice] Starting input thread
+[19:55:23] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59532.
+[19:55:23] [Thread-152/INFO]: [RaspberryJuice] Starting output thread!
+[19:55:23] [Thread-151/INFO]: [RaspberryJuice] Starting input thread
+[19:55:23] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59533.
+[19:55:23] [Thread-154/INFO]: [RaspberryJuice] Starting output thread!
+[19:55:23] [Thread-153/INFO]: [RaspberryJuice] Starting input thread
+[19:55:23] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59534.
+[19:55:23] [Thread-156/INFO]: [RaspberryJuice] Starting output thread!
+[19:55:23] [Thread-155/INFO]: [RaspberryJuice] Starting input thread
+[19:55:24] [Server thread/INFO]: <System> You started bot: insultBot1[m
+[19:55:25] [Server thread/INFO]: <insultBot1> ETS TANT POC IMPORTANT QUE NO VAL LA PENA INSULTARTE[m
+[19:55:27] [Server thread/INFO]: <System> You stop bot: insultBot1[m
+[19:55:27] [Server thread/INFO]: <System> You started bot: chatBot1[m
+[19:55:28] [Server thread/INFO]: <chatBot1> ...[m
+[19:55:31] [Server thread/INFO]: <tntBot1> Level: 4, time: 20[m
+[19:55:31] [Server thread/INFO]: <tntBot1> You have 2 s to run. HAHAHAHA!![m
+[19:55:31] [Server thread/INFO]: <System> You stop bot: chatBot1[m
+[19:55:31] [Server thread/INFO]: <System> You started bot: tntBot1[m
+[19:55:31] [Server thread/INFO]: <chatBot1> Hello there! How can I help you today?[m
+[19:55:31] [Server thread/INFO]: <chatBot1> End message[m
+[19:55:33] [Server thread/INFO]: <tntBot1> You are a looser[m
+[19:55:33] [Server thread/INFO]: <System> You stop bot: tntBot1[m
+[19:55:34] [Server thread/INFO]: <System> Attr bot: insultBot2[m
+[19:55:34] [Server thread/INFO]: <System>  insults : ['TONTO', "CAP D'ESPINACA", 'INUTIL', 'LA TEVA PRACTICA ES TERRIBLE', 'ETS TANT POC IMPORTANT QUE NO VAL LA PENA INSULTARTE'][m
+[19:55:34] [Server thread/INFO]: <System>  name : insultBot2[m
+[19:55:34] [Server thread/INFO]: <System>  comandActive : #insultBot2[m
+[19:55:34] [Server thread/INFO]: <System>  comandEnd : #endInsultBot2[m
+[19:55:34] [Server thread/INFO]: <System>  chatList : [][m
+[19:55:34] [Server thread/INFO]: <System>  playerId : 0[m
+[19:55:34] [Server thread/INFO]: <System>  ini : False[m
+[19:55:35] [Server thread/INFO]: <System> Attr bot: chatBot2[m
+[19:55:35] [Server thread/INFO]: <System> name : chatBot2[m
+[19:55:35] [Server thread/INFO]: <System> comandEnd : #endChatBot2[m
+[19:55:35] [Server thread/INFO]: <System> Attribute with name (mec) doesen't exist[m
+[19:55:37] [Server thread/INFO]: <System> Bots active[m
+[19:55:39] [Server thread/INFO]: <System> Bots inactive[m
+[19:55:40] [Server thread/INFO]: <System> You started bot: insultMan1[m
+[19:55:40] [Server thread/INFO]: <System> You started bot: chatMan1[m
+[19:55:41] [Server thread/INFO]: <System> Attr bot: insultMan2[m
+[19:55:41] [Server thread/INFO]: <System> name : insultMan2[m
+[19:55:41] [Server thread/INFO]: <System> comandActive : #insultMan2[m
+[19:55:41] [Server thread/INFO]: <System> comandEnd : #endInsultMan2[m
+[19:55:41] [Server thread/INFO]: <System> Attr bot: chatMan2[m
+[19:55:41] [Server thread/INFO]: <System> name : chatMan2[m
+[19:55:41] [Server thread/INFO]: <System> comandActive : #chatMan2[m
+[19:55:41] [Server thread/INFO]: <System> comandEnd : #endChatMan2[m
+[19:55:41] [Server thread/INFO]: <chatMan1> ...[m
+[19:55:42] [Server thread/INFO]: <System> You stop bot: insultMan1[m
+[19:55:42] [Server thread/INFO]: <insultMan1> LA TEVA PRACTICA ES TERRIBLE[m
+[19:55:42] [Server thread/INFO]: <System> Attr bot: insultManErr[m
+[19:55:42] [Server thread/INFO]: <System> name : insultManErr[m
+[19:55:42] [Server thread/INFO]: <System> comandActive : #insultManErr[m
+[19:55:42] [Server thread/INFO]: <System> comandEnd : #endInsultManErr[m
+[19:55:43] [Server thread/INFO]: <System> You stop bot: chatMan1[m
+[19:55:43] [Server thread/INFO]: <chatMan1> End message[m
+[19:55:43] [Server thread/INFO]: <System> Attr bot: chatManErr1[m
+[19:55:43] [Server thread/INFO]: <System>  name : chatManErr1[m
+[19:55:43] [Server thread/INFO]: <System>  comandActive : #chatManErr1[m
+[19:55:43] [Server thread/INFO]: <System>  comandEnd : #endChatManErr1[m
+[19:55:43] [Server thread/INFO]: <System>  chatList : [][m
+[19:55:43] [Server thread/INFO]: <System>  playerId : 0[m
+[19:55:43] [Server thread/INFO]: <System>  ini : False[m
+[19:55:43] [Server thread/INFO]: <System> Bad request (#showAttr nameBot)[m
+[19:55:43] [Server thread/INFO]: <System> Doesn't exist a bot with name: botInvented[m
+[19:55:45] [Server thread/INFO]: <System> Attr bot: chatManErr2[m
+[19:55:45] [Server thread/INFO]: <System> name : chatManErr2[m
+[19:55:45] [Server thread/INFO]: <System> playerId : 0[m
+[19:55:45] [Server thread/INFO]: <System> chatList : ['Hola'][m
+[19:55:45] [Server thread/INFO]: <System> ini : False[m
+[19:55:45] [Server thread/INFO]: <System> Attribute with name (mec) doesen't exist[m
+[19:55:45] [Server thread/INFO]: <System> Bad request (#showSpecificAttr nameBot att1 attr2 ...)[m
+[19:55:45] [Server thread/INFO]: <System> Doesn't exist a bot with name: botInvented[m
+[19:55:46] [Server thread/INFO]: <System> Bad request (#modifyAttribute nameBot attributeSelected newValue)[m
+[19:55:46] [Server thread/INFO]: <System> Doesn't exist a bot with that name: invMan[m
+[19:55:46] [Server thread/INFO]: <System> Doesn't exist an attribute named: mec[m
+[19:55:46] [Server thread/INFO]: <System> You have modified: lvl His new value is: 4[m
+[19:55:46] [Server thread/INFO]: <System> You have modified: lvl His new value is: 1[m
+[19:55:46] [Server thread/INFO]: <System> You have modified: name His new value is: botTnt[m
+[19:55:47] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59530.
+[19:55:47] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59531.
+[19:55:47] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59532.
+[19:55:47] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59533.
+[19:55:47] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59534.
+[19:57:23] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59622.
+[19:57:23] [Thread-157/INFO]: [RaspberryJuice] Starting input thread
+[19:57:23] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59623.
+[19:57:23] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59624.
+[19:57:23] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59625.
+[19:57:23] [Thread-158/INFO]: [RaspberryJuice] Starting output thread!
+[19:57:23] [Thread-160/INFO]: [RaspberryJuice] Starting output thread!
+[19:57:23] [Thread-164/INFO]: [RaspberryJuice] Starting output thread!
+[19:57:23] [Thread-162/INFO]: [RaspberryJuice] Starting output thread!
+[19:57:23] [Thread-159/INFO]: [RaspberryJuice] Starting input thread
+[19:57:23] [Thread-161/INFO]: [RaspberryJuice] Starting input thread
+[19:57:23] [Thread-163/INFO]: [RaspberryJuice] Starting input thread
+[19:57:30] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59628.
+[19:57:30] [Thread-166/INFO]: [RaspberryJuice] Starting output thread!
+[19:57:30] [Thread-165/INFO]: [RaspberryJuice] Starting input thread
+[19:57:30] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59629.
+[19:57:30] [Thread-168/INFO]: [RaspberryJuice] Starting output thread!
+[19:57:30] [Thread-167/INFO]: [RaspberryJuice] Starting input thread
+[19:57:30] [Server thread/INFO]: <System> Bots active[m
+[20:17:58] [Server thread/INFO]: Lyuuubo[/127.0.0.1:59953] logged in with entity id 161 at ([world]-262.2163950096778, 76.0, 347.34284177790863)
+[20:18:01] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2171ms behind, skipping 43 tick(s)
+[20:18:53] [Netty Server IO #2/INFO]: <Lyuuubo> #chatBot[m
+[20:18:54] [Server thread/INFO]: <System> You started bot: chatBot[m
+[20:18:59] [Netty Server IO #2/INFO]: <Lyuuubo> hola[m
+[20:19:00] [Server thread/INFO]: <chatBot> ...[m
+[20:19:04] [Server thread/INFO]: <chatBot> Hola! ¨C¢mo est s?[m
+[20:19:06] [Server thread/INFO]: [m
+[20:19:06] [Server thread/INFO]: <chatBot> End message[m
+[20:19:06] [Netty Server IO #2/INFO]: <Lyuuubo> #tntBot[m
+[20:19:07] [Server thread/INFO]: <tntBot> Level: 4, time: 30[m
+[20:19:07] [Server thread/INFO]: <tntBot> You have 2 s to run. HAHAHAHA!![m
+[20:19:07] [Server thread/INFO]: <System> You started bot: tntBot[m
+[20:19:18] [Netty Server IO #2/INFO]: <Lyuuubo> #endTntBot[m
+[20:19:19] [Server thread/INFO]: <tntBot> You are a looser[m
+[20:19:19] [Server thread/INFO]: <System> You stop bot: tntBot[m
+[20:19:31] [Netty Server IO #2/INFO]: <Lyuuubo> #showBots[m
+[20:19:32] [Server thread/INFO]: <System> Attr bot: insultBot1[m
+[20:19:32] [Server thread/INFO]: <System> name : insultBot1[m
+[20:19:32] [Server thread/INFO]: <System> comandActive : #insultBot1[m
+[20:19:32] [Server thread/INFO]: <System> comandEnd : #endInsultBot1[m
+[20:19:32] [Server thread/INFO]: <System> Attr bot: insultBot2[m
+[20:19:32] [Server thread/INFO]: <System> name : insultBot2[m
+[20:19:32] [Server thread/INFO]: <System> comandActive : #insultBot2[m
+[20:19:32] [Server thread/INFO]: <System> comandEnd : #endInsultBot2[m
+[20:19:32] [Server thread/INFO]: <System> Attr bot: tntBot[m
+[20:19:32] [Server thread/INFO]: <System> name : tntBot[m
+[20:19:32] [Server thread/INFO]: <System> comandActive : #tntBot[m
+[20:19:32] [Server thread/INFO]: <System> comandEnd : #endTntBot[m
+[20:19:32] [Server thread/INFO]: <System> Attr bot: chatBot[m
+[20:19:32] [Server thread/INFO]: <System> name : chatBot[m
+[20:19:32] [Server thread/INFO]: <System> comandActive : #chatBot[m
+[20:19:32] [Server thread/INFO]: <System> comandEnd : #endChatBot[m
+[20:19:38] [Netty Server IO #2/INFO]: <Lyuuubo> #showAcgtiveBots[m
+[20:19:43] [Netty Server IO #2/INFO]: <Lyuuubo> #showActiveBots[m
+[20:19:43] [Server thread/INFO]: <System> Attr bot: chatBot[m
+[20:19:43] [Server thread/INFO]: <System> name : chatBot[m
+[20:19:43] [Server thread/INFO]: <System> comandActive : #chatBot[m
+[20:19:43] [Server thread/INFO]: <System> comandEnd : #endChatBot[m
+[20:21:32] [Server thread/INFO]: Lyuuubo lost connection: Disconnected
+[20:21:32] [Server thread/INFO]: Lyuuubo left the game
+[20:21:50] [Thread-157/INFO]: [RaspberryJuice] Connection reset
+[20:21:50] [Thread-159/INFO]: [RaspberryJuice] Connection reset
+[20:21:50] [Thread-161/INFO]: [RaspberryJuice] Connection reset
+[20:21:50] [Thread-167/INFO]: [RaspberryJuice] Connection reset
+[20:21:50] [Thread-165/INFO]: [RaspberryJuice] Connection reset
+[20:21:50] [Thread-163/INFO]: [RaspberryJuice] Connection reset
+[20:21:50] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59622.
+[20:21:50] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59623.
+[20:21:50] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59624.
+[20:21:50] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59625.
+[20:21:50] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59628.
+[20:21:50] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59629.
+[20:53:47] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60417.
+[20:53:47] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60418.
+[20:53:47] [Thread-169/INFO]: [RaspberryJuice] Starting input thread
+[20:53:47] [Thread-172/INFO]: [RaspberryJuice] Starting output thread!
+[20:53:47] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60419.
+[20:53:47] [Thread-170/INFO]: [RaspberryJuice] Starting output thread!
+[20:53:47] [Thread-171/INFO]: [RaspberryJuice] Starting input thread
+[20:53:47] [Thread-173/INFO]: [RaspberryJuice] Starting input thread
+[20:53:47] [Thread-174/INFO]: [RaspberryJuice] Starting output thread!
+[20:53:47] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60420.
+[20:53:47] [Thread-176/INFO]: [RaspberryJuice] Starting output thread!
+[20:53:47] [Thread-175/INFO]: [RaspberryJuice] Starting input thread
+[20:53:47] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60421.
+[20:53:47] [Thread-177/INFO]: [RaspberryJuice] Starting input thread
+[20:53:47] [Thread-178/INFO]: [RaspberryJuice] Starting output thread!
+[20:53:50] [Server thread/INFO]: <System> You started bot: insultBot1[m
+[20:53:51] [Server thread/INFO]: <insultBot1> CAP D'ESPINACA[m
+[20:53:53] [Server thread/INFO]: <System> You stop bot: insultBot1[m
+[20:53:53] [Server thread/INFO]: <System> You started bot: chatBot1[m
+[20:53:54] [Server thread/INFO]: <chatBot1> ...[m
+[20:53:55] [Server thread/INFO]: <tntBot1> Level: 4, time: 20[m
+[20:53:55] [Server thread/INFO]: <tntBot1> You have 2 s to run. HAHAHAHA!![m
+[20:53:55] [Server thread/INFO]: <System> You stop bot: chatBot1[m
+[20:53:55] [Server thread/INFO]: <System> You started bot: tntBot1[m
+[20:53:55] [Server thread/INFO]: <chatBot1> End message[m
+[20:53:57] [Server thread/INFO]: <tntBot1> You are a looser[m
+[20:53:57] [Server thread/INFO]: <System> You stop bot: tntBot1[m
+[20:53:58] [Server thread/INFO]: <System> Attr bot: insultBot2[m
+[20:53:58] [Server thread/INFO]: <System>  insults : ['TONTO', "CAP D'ESPINACA", 'INUTIL', 'LA TEVA PRACTICA ES TERRIBLE', 'ETS TANT POC IMPORTANT QUE NO VAL LA PENA INSULTARTE'][m
+[20:53:58] [Server thread/INFO]: <System>  name : insultBot2[m
+[20:53:58] [Server thread/INFO]: <System>  comandActive : #insultBot2[m
+[20:53:58] [Server thread/INFO]: <System>  comandEnd : #endInsultBot2[m
+[20:53:58] [Server thread/INFO]: <System>  chatList : [][m
+[20:53:58] [Server thread/INFO]: <System>  playerId : 0[m
+[20:53:58] [Server thread/INFO]: <System>  ini : False[m
+[20:53:59] [Server thread/INFO]: <System> Attr bot: chatBot2[m
+[20:53:59] [Server thread/INFO]: <System> name : chatBot2[m
+[20:53:59] [Server thread/INFO]: <System> comandEnd : #endChatBot2[m
+[20:53:59] [Server thread/INFO]: <System> Attribute with name (mec) doesen't exist[m
+[20:54:01] [Server thread/INFO]: <System> Bots active[m
+[20:54:03] [Server thread/INFO]: <System> Bots inactive[m
+[20:54:04] [Server thread/INFO]: <System> You started bot: insultMan1[m
+[20:54:04] [Server thread/INFO]: <System> You started bot: chatMan1[m
+[20:54:05] [Server thread/INFO]: <System> You stop bot: insultMan1[m
+[20:54:05] [Server thread/INFO]: <System> Attr bot: insultMan2[m
+[20:54:05] [Server thread/INFO]: <System> name : insultMan2[m
+[20:54:05] [Server thread/INFO]: <System> comandActive : #insultMan2[m
+[20:54:05] [Server thread/INFO]: <System> comandEnd : #endInsultMan2[m
+[20:54:05] [Server thread/INFO]: <System> Attr bot: chatMan2[m
+[20:54:05] [Server thread/INFO]: <System> name : chatMan2[m
+[20:54:05] [Server thread/INFO]: <System> comandActive : #chatMan2[m
+[20:54:05] [Server thread/INFO]: <System> comandEnd : #endChatMan2[m
+[20:54:05] [Server thread/INFO]: <insultMan1> ETS TANT POC IMPORTANT QUE NO VAL LA PENA INSULTARTE[m
+[20:54:05] [Server thread/INFO]: <chatMan1> ...[m
+[20:54:06] [Server thread/INFO]: <System> Attr bot: insultManErr[m
+[20:54:06] [Server thread/INFO]: <System> name : insultManErr[m
+[20:54:06] [Server thread/INFO]: <System> comandActive : #insultManErr[m
+[20:54:06] [Server thread/INFO]: <System> comandEnd : #endInsultManErr[m
+[20:54:06] [Server thread/INFO]: <System> You stop bot: chatMan1[m
+[20:54:06] [Server thread/INFO]: <chatMan1> End message[m
+[20:54:07] [Server thread/INFO]: <System> Attr bot: chatManErr1[m
+[20:54:07] [Server thread/INFO]: <System>  name : chatManErr1[m
+[20:54:07] [Server thread/INFO]: <System>  comandActive : #chatManErr1[m
+[20:54:07] [Server thread/INFO]: <System>  comandEnd : #endChatManErr1[m
+[20:54:07] [Server thread/INFO]: <System>  chatList : [][m
+[20:54:07] [Server thread/INFO]: <System>  playerId : 0[m
+[20:54:07] [Server thread/INFO]: <System>  ini : False[m
+[20:54:07] [Server thread/INFO]: <System> Bad request (#showAttr nameBot)[m
+[20:54:07] [Server thread/INFO]: <System> Doesn't exist a bot with name: botInvented[m
+[20:54:08] [Server thread/INFO]: <System> Bad request (#showSpecificAttr nameBot att1 attr2 ...)[m
+[20:54:08] [Server thread/INFO]: <System> Doesn't exist a bot with name: botInvented[m
+[20:54:08] [Server thread/INFO]: <System> Attr bot: chatManErr2[m
+[20:54:08] [Server thread/INFO]: <System> name : chatManErr2[m
+[20:54:08] [Server thread/INFO]: <System> playerId : 0[m
+[20:54:08] [Server thread/INFO]: <System> chatList : ['Hola'][m
+[20:54:08] [Server thread/INFO]: <System> ini : False[m
+[20:54:08] [Server thread/INFO]: <System> Attribute with name (mec) doesen't exist[m
+[20:54:09] [Server thread/INFO]: <System> Bad request (#modifyAttribute nameBot attributeSelected newValue)[m
+[20:54:09] [Server thread/INFO]: <System> Doesn't exist a bot with that name: invMan[m
+[20:54:09] [Server thread/INFO]: <System> Doesn't exist an attribute named: mec[m
+[20:54:09] [Server thread/INFO]: <System> You have modified: lvl His new value is: 4[m
+[20:54:09] [Server thread/INFO]: <System> You have modified: lvl His new value is: 1[m
+[20:54:09] [Server thread/INFO]: <System> You have modified: name His new value is: botTnt[m
+[20:54:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60417.
+[20:54:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60418.
+[20:54:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60419.
+[20:54:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60420.
+[20:54:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60421.

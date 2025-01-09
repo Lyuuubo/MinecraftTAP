@@ -1,9 +1,15 @@
 from threading import Thread
-from botManager import BotManager
-from tnnnntBot import tntBot
-from oracleBot import oracleBot
-from insultBot import insultBot
-import mcpi.minecraft as minecraft  #Llibreria de minecraft
+import os
+import sys
+
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.append(project_root)
+
+from MyAdventures.botManager import BotManager
+from MyAdventures.tnnnntBot import tntBot
+from MyAdventures.oracleBot import oracleBot
+from MyAdventures.insultBot import insultBot
+import MyAdventures.mcpi.minecraft as minecraft  #Llibreria de minecraft
 
 mc = minecraft.Minecraft.create()   #Crea connexiÃ³ amb minecraft
 

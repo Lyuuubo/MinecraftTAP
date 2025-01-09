@@ -1,6 +1,11 @@
-import mcpi.minecraft as minecraft  #Llibreria de minecraft
+import os
+import sys
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.append(project_root)
+
+import MyAdventures.mcpi.minecraft as minecraft  #Llibreria de minecraft
 mc = minecraft.Minecraft.create()   #Crea connexiÃ³ amb minecra
-from fatherBot import fatherBot
+from MyAdventures.fatherBot import fatherBot
 import time
 import random
 

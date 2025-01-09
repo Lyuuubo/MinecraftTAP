@@ -1,5 +1,10 @@
-from fatherBot import fatherBot
-import mcpi.minecraft as minecraft  #Llibreria de minecraft
+import os
+import sys
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.append(project_root)
+
+from MyAdventures.fatherBot import fatherBot
+import MyAdventures.mcpi.minecraft as minecraft  #Llibreria de minecraft
 mc = minecraft.Minecraft.create()   #Crea connexió amb minecra
 import google.generativeai as genai
 import time
